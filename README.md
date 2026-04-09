@@ -1,6 +1,6 @@
 # moksha-warp
 
-Experimental Wayland compositor bridge for [Moksha](https://www.bodhilinux.com/) on Bodhi Linux.
+Experimental Wayland compositor bridge for [Moksha](https://www.bodhilinux.com/) on Bodhi Linux.  
 Written in Python. Runs inside an X11 session, hosting a private Wayland socket.
 
 Real Wayland clients connect, negotiate surfaces and buffers, and get GPU-native
@@ -61,7 +61,7 @@ the GLES preview window.
 
 ## Prerequisites
 
-- Bodhi Linux 7 / Debian-family Linux
+- Bodhi Linux 7 (Ubuntu base, initial development) or Bodhi Trixie (Debian 13 base, current)
 - Python 3.10+
 - `XDG_RUNTIME_DIR` set (e.g. `/run/user/1000`)
 - A working `.venv` with dependencies installed:
@@ -83,7 +83,7 @@ python3 -m venv .venv
 bash run_dmabuf_good.sh
 ```
 
-Uses `.venv/bin/python3` if present, falls back to system Python.
+Uses `.venv/bin/python3` if present, falls back to system Python.  
 Sets `XDG_RUNTIME_DIR` and `SDL_VIDEO_X11_FORCE_EGL=1`.
 
 ```bash
@@ -101,33 +101,33 @@ bash run_dmabuf_probe.sh [optional-client-command]
 
 ## Package Layout
 
-```
+```text
 warp/
   __init__.py
   protocol/
-    compositor.py       # Wayland server: socket, globals, surface/buffer lifecycle
+    compositor.py         # Wayland server: socket, globals, surface/buffer lifecycle
     __init__.py
   gpu/
-    egl_import.py       # EGLDmabufImporter: dma-buf -> EGLImage
-    gles_renderer.py    # GlesDmabufRenderer: EGLImage -> GL texture -> draw -> swap
+    egl_import.py         # dma-buf -> EGLImage import path
+    gles_renderer.py      # EGLImage -> GL texture -> draw -> swap
     __init__.py
   output/
-    kms.py              # KMS device probe, scanout eligibility, GlesPreviewBackend
+    kms.py                # KMS probing, connector/mode discovery, scanout classification
     __init__.py
   render/
-    __init__.py         # placeholder
+    __init__.py           # reserved / placeholder
 
 scripts/
   dmabuf_test_client.py   # Python dma-buf Wayland client for local testing
   dmabuf_gl_probe.py      # GL/EGL capability probe
-  wayland_globals_probe.py # Standalone compositor probe (historical)
-  evas_probe.py, ...      # Early Evas/EFL investigation scripts (historical)
+  wayland_globals_probe.py # standalone compositor probe (historical)
+  evas_probe.py, ...      # earlier EFL/Evas investigation scripts
 
 docs/
-  00-goal.md              # original project goal
-  01-environment.md       # environment setup notes
-  02-current-status.md    # early status snapshot
-  03-python-efl-findings.md  # why EFL/Evas was ruled out
+  00-goal.md
+  01-environment.md
+  02-current-status.md
+  03-python-efl-findings.md
   04-wayland-probe-result.md
   05-client-handshake-result.md
   06-shm-progress.md
@@ -137,22 +137,22 @@ docs/
   10-render-loop-breakthrough.md
   11-first-visible-frame.md
   12-dmabuf-zero-copy-path-confirmed.md
-  12-vt-direct-scanout-test.md
   13-dmabuf-import-success.md
-  13-hardware-aware-scanout-classification.md
   14-dmabuf-acceptance-and-release-loop.md
   15-dmabuf-buffer-creation-and-attach.md
-  17-project_documentation.md  # architecture overview
+  project_documentation.md
+  # milestone notes, investigation logs, and project writeups
 
-logs/proof/
-  *-summary.txt           # curated run summaries (tracked)
-  *.log                   # raw verbose output (gitignored)
+logs/
+  proof/
+    *-summary.txt         # curated run summaries (tracked)
+    *.log                 # raw verbose output (typically gitignored)
 
 archive/
-  snapshots/              # pre-edit snapshots of compositor.py and GPU modules
+  snapshots/              # pre-edit source snapshots
   backups/                # manual backup files
-  legacy_scripts/         # retired shim scripts
-  combined_raw_session_dump.md  # full combined session log (raw)
+  legacy_scripts/         # retired shim/probe scripts
+  combined_raw_session_dump.md  # raw combined session log
 ```
 
 ---
@@ -209,5 +209,8 @@ bash dev-mktar.sh --include-untracked
 | GPU | Intel UHD 630 |
 | Driver | Mesa / i915 |
 | EGL | 1.5 (Mesa) |
-| OS | Bodhi Linux 7 (Debian 12 base) |
+| OS | Bodhi Linux 7 (Ubuntu base), Bodhi Trixie (Debian 13 base) |
 | Python | 3.13 |
+
+## License
+This project is licensed under the GNU General Public License v3.0.
