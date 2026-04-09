@@ -7,6 +7,14 @@ Real Wayland clients connect, negotiate surfaces and buffers, and get GPU-native
 frames presented via EGLImage -> GL texture -> SDL preview window. No CPU copies
 in the dma-buf path. Not a production compositor.
 
+## Demo
+
+[![Moksha Warp Demo](https://img.youtube.com/vi/u13_XfL_JUc/hqdefault.jpg)](https://www.youtube.com/watch?v=u13_XfL_JUc)
+
+Live dma-buf → EGL → GLES path running inside Moksha.
+
+Direct link: https://www.youtube.com/watch?v=u13_XfL_JUc
+
 ---
 
 ## What Currently Works
