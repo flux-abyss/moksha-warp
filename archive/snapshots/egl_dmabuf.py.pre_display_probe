@@ -1,0 +1,184 @@
+#!/usr/bin/env python3
+import ctypes
+import ctypes.util
+import os
+
+# --- EGL constants ---
+EGL_DEFAULT_DISPLAY = ctypes.c_void_p(0)
+EGL_NO_CONTEXT = ctypes.c_void_p(0)
+EGL_NO_IMAGE_KHR = ctypes.c_void_p(0)
+
+EGL_NONE = 0x3038
+EGL_WIDTH = 0x3057
+EGL_HEIGHT = 0x3056
+
+EGL_LINUX_DMA_BUF_EXT = 0x3270
+EGL_LINUX_DRM_FOURCC_EXT = 0x3271
+EGL_DMA_BUF_PLANE0_FD_EXT = 0x3272
+EGL_DMA_BUF_PLANE0_OFFSET_EXT = 0x3273
+EGL_DMA_BUF_PLANE0_PITCH_EXT = 0x3274
+EGL_DMA_BUF_PLANE0_MODIFIER_LO_EXT = 0x3443
+EGL_DMA_BUF_PLANE0_MODIFIER_HI_EXT = 0x3444
+
+EGL_EXTENSIONS = 0x3055
+
+# DRM fourcc
+DRM_FORMAT_XRGB8888 = 0x34325258
+DRM_FORMAT_ARGB8888 = 0x34325241
+
+
+class EglDmabufError(RuntimeError):
+    pass
+
+
+def _load_library(name_hint: str):
+    path = ctypes.util.find_library(name_hint)
+    if not path:
+        raise EglDmabufError(f"Could not find library: {name_hint}")
+    return ctypes.CDLL(path)
+
+
+_libEGL = _load_library("EGL")
+
+# Core EGL symbols
+_eglGetDisplay = _libEGL.eglGetDisplay
+_eglGetDisplay.argtypes = [ctypes.c_void_p]
+_eglGetDisplay.restype = ctypes.c_void_p
+
+_eglInitialize = _libEGL.eglInitialize
+_eglInitialize.argtypes = [ctypes.c_void_p, ctypes.POINTER(ctypes.c_int), ctypes.POINTER(ctypes.c_int)]
+_eglInitialize.restype = ctypes.c_uint
+
+_eglTerminate = _libEGL.eglTerminate
+_eglTerminate.argtypes = [ctypes.c_void_p]
+_eglTerminate.restype = ctypes.c_uint
+
+_eglQueryString = _libEGL.eglQueryString
+_eglQueryString.argtypes = [ctypes.c_void_p, ctypes.c_int]
+_eglQueryString.restype = ctypes.c_char_p
+
+_eglGetError = _libEGL.eglGetError
+_eglGetError.argtypes = []
+_eglGetError.restype = ctypes.c_uint
+
+_eglGetProcAddress = _libEGL.eglGetProcAddress
+_eglGetProcAddress.argtypes = [ctypes.c_char_p]
+_eglGetProcAddress.restype = ctypes.c_void_p
+
+
+def _egl_bool(ok: int, what: str):
+    if not ok:
+        raise EglDmabufError(f"{what} failed, eglGetError=0x{_eglGetError():04x}")
+
+
+def _require_proc(name: str, restype, argtypes):
+    ptr = _eglGetProcAddress(name.encode("ascii"))
+    if not ptr:
+        raise EglDmabufError(f"eglGetProcAddress could not resolve {name}")
+    fn_type = ctypes.CFUNCTYPE(restype, *argtypes)
+    return fn_type(ptr)
+
+
+_eglCreateImageKHR = _require_proc(
+    "eglCreateImageKHR",
+    ctypes.c_void_p,
+    [ctypes.c_void_p, ctypes.c_void_p, ctypes.c_uint, ctypes.c_void_p, ctypes.POINTER(ctypes.c_int)],
+)
+
+_eglDestroyImageKHR = _require_proc(
+    "eglDestroyImageKHR",
+    ctypes.c_uint,
+    [ctypes.c_void_p, ctypes.c_void_p],
+)
+
+
+class EglDmabufImporter:
+    def __init__(self):
+        self.display = None
+        self.major = 0
+        self.minor = 0
+        self.extensions = ""
+
+    def initialize(self):
+        dpy = _eglGetDisplay(EGL_DEFAULT_DISPLAY)
+        if not dpy:
+            raise EglDmabufError("eglGetDisplay returned NULL")
+
+        major = ctypes.c_int()
+        minor = ctypes.c_int()
+        _egl_bool(_eglInitialize(dpy, ctypes.byref(major), ctypes.byref(minor)), "eglInitialize")
+
+        exts = _eglQueryString(dpy, EGL_EXTENSIONS)
+        ext_str = exts.decode("utf-8", errors="replace") if exts else ""
+
+        self.display = dpy
+        self.major = major.value
+        self.minor = minor.value
+        self.extensions = ext_str
+        return self
+
+    def terminate(self):
+        if self.display:
+            _eglTerminate(self.display)
+            self.display = None
+
+    def has_extension(self, name: str) -> bool:
+        return name in self.extensions.split()
+
+    def import_dmabuf_image(
+        self,
+        fd: int,
+        width: int,
+        height: int,
+        fourcc: int,
+        stride: int,
+        offset: int = 0,
+        modifier: int = 0,
+    ):
+        if self.display is None:
+            raise EglDmabufError("EGL display not initialized")
+
+        mod_lo = modifier & 0xFFFFFFFF
+        mod_hi = (modifier >> 32) & 0xFFFFFFFF
+
+        attrs = (ctypes.c_int * 17)(
+            EGL_WIDTH, width,
+            EGL_HEIGHT, height,
+            EGL_LINUX_DRM_FOURCC_EXT, fourcc,
+            EGL_DMA_BUF_PLANE0_FD_EXT, fd,
+            EGL_DMA_BUF_PLANE0_OFFSET_EXT, offset,
+            EGL_DMA_BUF_PLANE0_PITCH_EXT, stride,
+            EGL_DMA_BUF_PLANE0_MODIFIER_LO_EXT, mod_lo,
+            EGL_DMA_BUF_PLANE0_MODIFIER_HI_EXT, mod_hi,
+            EGL_NONE,
+        )
+
+        image = _eglCreateImageKHR(
+            self.display,
+            EGL_NO_CONTEXT,
+            EGL_LINUX_DMA_BUF_EXT,
+            None,
+            attrs,
+        )
+        if not image or image == EGL_NO_IMAGE_KHR:
+            raise EglDmabufError(f"eglCreateImageKHR failed, eglGetError=0x{_eglGetError():04x}")
+
+        return image
+
+    def destroy_image(self, image):
+        if self.display is None:
+            raise EglDmabufError("EGL display not initialized")
+        _egl_bool(_eglDestroyImageKHR(self.display, image), "eglDestroyImageKHR")
+
+
+def quick_probe():
+    imp = EglDmabufImporter().initialize()
+    print(f"EGL initialized: {imp.major}.{imp.minor}")
+    print("Has EGL_EXT_image_dma_buf_import:", imp.has_extension("EGL_EXT_image_dma_buf_import"))
+    print("Has EGL_EXT_image_dma_buf_import_modifiers:", imp.has_extension("EGL_EXT_image_dma_buf_import_modifiers"))
+    print("Has EGL_KHR_image:", imp.has_extension("EGL_KHR_image"))
+    imp.terminate()
+
+
+if __name__ == "__main__":
+    quick_probe()

@@ -1,0 +1,873 @@
+#!/usr/bin/env python3
+import json
+import mmap
+import os
+import signal
+import time
+from dataclasses import dataclass, field
+from typing import Dict, List, Optional
+
+import pygame
+from warp.gles_dmabuf_renderer import GlesDmabufRenderer
+from pywayland import ffi, lib
+from pywayland.server import Display
+from pywayland.protocol.wayland import (
+    WlBuffer,
+    WlCallback,
+    WlCompositor,
+    WlShm,
+    WlShmPool,
+    WlSurface,
+)
+from pywayland.protocol.xdg_shell import (
+    XdgSurface,
+    XdgToplevel,
+    XdgWmBase,
+)
+from pywayland.protocol.linux_dmabuf_v1 import (
+    ZwpLinuxDmabufV1,
+    ZwpLinuxBufferParamsV1,
+)
+from warp.egl_dmabuf import EglDmabufImporter, EglDmabufError
+
+LOG_PATH = os.path.expanduser("~/repos/moksha-warp/logs/wayland_globals_probe.json")
+
+DRM_FORMAT_XRGB8888 = 0x34325258
+DRM_FORMAT_ARGB8888 = 0x34325241
+DRM_FORMAT_MOD_LINEAR_HI = 0
+DRM_FORMAT_MOD_LINEAR_LO = 0
+
+DMABUF_PARAMS = {}
+DMABUF_GL_RENDERER = None
+EGL_DMABUF_IMPORTER = None
+
+
+def log(*args):
+    print(*args, flush=True)
+
+
+@dataclass
+class ShmPoolState:
+    fd: int
+    size: int
+    mm: mmap.mmap
+    refcount: int = 0
+    destroyed: bool = False
+    closed: bool = False
+
+    def maybe_cleanup(self):
+        if self.closed:
+            return
+        if not self.destroyed:
+            return
+        if self.refcount != 0:
+            return
+
+        try:
+            self.mm.close()
+        except Exception:
+            pass
+
+        try:
+            os.close(self.fd)
+        except Exception:
+            pass
+
+        self.closed = True
+
+
+@dataclass
+class BufferState:
+    pool: ShmPoolState
+    offset: int
+    width: int
+    height: int
+    stride: int
+    format: int
+
+
+@dataclass
+class DmabufBufferState:
+    width: int
+    height: int
+    format: int
+    modifier: int
+    planes: list
+    egl_image: object
+
+
+@dataclass
+class SurfaceState:
+    pending_buffer: Optional[BufferState] = None
+    current_buffer: Optional[BufferState] = None
+    pending_buffer_resource: Optional[WlBuffer.resource_class] = None
+    current_buffer_resource: Optional[WlBuffer.resource_class] = None
+    frame_callbacks: List[WlCallback.resource_class] = field(default_factory=list)
+
+
+class ProbeState:
+    def __init__(self):
+        self.globals: List[str] = []
+        self.buffers: Dict[int, WlBuffer.resource_class] = {}
+        self.surfaces: Dict[int, WlSurface.resource_class] = {}
+        self.pools: Dict[int, WlShmPool.resource_class] = {}
+        self.bound_resources: Dict[tuple, object] = {}
+        self.callbacks: Dict[int, WlCallback.resource_class] = {}
+        self.xdg_surfaces: Dict[int, XdgSurface.resource_class] = {}
+        self.xdg_toplevels: Dict[int, XdgToplevel.resource_class] = {}
+        self.server_globals: List[object] = []
+        self.serial = 1
+        self.socket_name: Optional[str] = None
+
+    def next_serial(self) -> int:
+        self.serial += 1
+        return self.serial
+
+
+STATE = ProbeState()
+
+
+class PygameRenderer:
+    def __init__(self):
+        self.screen = None
+        self.size = (640, 480)
+        self.started = False
+
+    def start(self):
+        if not self.started:
+            pygame.init()
+            self.started = True
+
+    def ensure_window(self, width: int, height: int):
+        self.start()
+        if self.screen is None or self.size != (width, height):
+            self.size = (width, height)
+            self.screen = pygame.display.set_mode(self.size)
+            pygame.display.set_caption("moksha-warp shm preview")
+            log(f"[renderer] window ready {width}x{height}")
+
+    def pump(self):
+        if not self.started:
+            return
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                raise SystemExit(0)
+
+    def present_buffer(self, buf_state: BufferState):
+        if buf_state.format != 0:
+            log(f"[renderer] unsupported shm format: {buf_state.format}")
+            return
+
+        width = buf_state.width
+        height = buf_state.height
+        stride = buf_state.stride
+        offset = buf_state.offset
+        mm = buf_state.pool.mm
+
+        expected_row_bytes = width * 4
+        total_bytes = stride * height
+
+        if offset + total_bytes > buf_state.pool.size:
+            log(
+                f"[renderer] buffer outside pool bounds: "
+                f"offset={offset} total={total_bytes} pool_size={buf_state.pool.size}"
+            )
+            return
+
+        raw = memoryview(mm)[offset : offset + total_bytes]
+        self.ensure_window(width, height)
+
+        if stride == expected_row_bytes:
+            surf = pygame.image.frombuffer(raw, (width, height), "BGRA")
+            self.screen.blit(surf, (0, 0))
+        else:
+            packed = bytearray(expected_row_bytes * height)
+            for y in range(height):
+                src_start = y * stride
+                src_end = src_start + expected_row_bytes
+                dst_start = y * expected_row_bytes
+                packed[dst_start : dst_start + expected_row_bytes] = raw[src_start:src_end]
+            surf = pygame.image.frombuffer(packed, (width, height), "BGRA")
+            self.screen.blit(surf, (0, 0))
+
+        pygame.display.flip()
+        log(
+            f"[renderer] presented buffer "
+            f"{width}x{height} stride={stride} offset={offset} fmt={buf_state.format}"
+        )
+
+
+RENDERER = PygameRenderer()
+
+
+def save_report():
+    os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+    data = {
+        "socket_name": STATE.socket_name,
+        "globals": STATE.globals,
+        "buffer_count": len(STATE.buffers),
+        "surface_count": len(STATE.surfaces),
+        "pool_count": len(STATE.pools),
+    }
+    with open(LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    log(f"Report saved to {LOG_PATH}")
+
+
+class MyCallbackResource(WlCallback.resource_class):
+    def __init__(self, client, version, id_):
+        super().__init__(client, version, id_)
+        log("MyCallbackResource.__init__ id=", id_)
+
+
+class MyBufferResource(WlBuffer.resource_class):
+    def __init__(self, client, version, id_, state: BufferState):
+        super().__init__(client, version, id_)
+        self.state = state
+        STATE.buffers[id_] = self
+        log("MyBufferResource.__init__ id=", id_)
+
+    def destroy(self):
+        log("MyBufferResource.destroy id=", self.id)
+        try:
+            self.state.pool.refcount -= 1
+            log("ShmPoolState.refcount-- buffer_id=", self.id, "refcount=", self.state.pool.refcount)
+            self.state.pool.maybe_cleanup()
+        except Exception as e:
+            log("MyBufferResource.destroy pool cleanup failed:", repr(e))
+        STATE.buffers.pop(self.id, None)
+        super().destroy()
+
+
+class MyShmPoolResource(WlShmPool.resource_class):
+    def __init__(self, client, version, id_, fd, size):
+        super().__init__(client, version, id_)
+        dup_fd = os.dup(fd)
+        mm = mmap.mmap(dup_fd, size, access=mmap.ACCESS_READ)
+        self.state = ShmPoolState(dup_fd, size, mm)
+        STATE.pools[id_] = self
+        log(
+            "MyShmPoolResource.__init__ client=",
+            client,
+            "version=",
+            version,
+            "id=",
+            id_,
+            "fd=",
+            dup_fd,
+            "size=",
+            size,
+        )
+
+    def destroy(self):
+        log("MyShmPoolResource.destroy id=", self.id, "(resource only)")
+        STATE.pools.pop(self.id, None)
+        super().destroy()
+
+
+class MyWlSurfaceResource(WlSurface.resource_class):
+    def __init__(self, client, version, id_):
+        super().__init__(client, version, id_)
+        self.state = SurfaceState()
+        STATE.surfaces[id_] = self
+        log("MyWlSurfaceResource.__init__ id=", id_)
+
+
+class MyXdgSurfaceResource(XdgSurface.resource_class):
+    def __init__(self, client, version, id_):
+        super().__init__(client, version, id_)
+        self.last_configure = None
+        log("MyXdgSurfaceResource.__init__ id=", id_)
+
+
+class MyXdgToplevelResource(XdgToplevel.resource_class):
+    def __init__(self, client, version, id_):
+        super().__init__(client, version, id_)
+        log("MyXdgToplevelResource.__init__ id=", id_)
+
+
+def bind_wl_compositor(resource):
+    log("compositor_bind resource=", resource, "version=", resource.version, "id=", resource.id)
+    STATE.bound_resources[("wl_compositor", resource.id)] = resource
+
+    def create_surface(res, id_):
+        log("wl_compositor.create_surface id=", id_)
+        surf = MyWlSurfaceResource(lib.wl_resource_get_client(res._ptr), res.version, id_)
+        STATE.surfaces[id_] = surf
+
+        def destroy_surface(sres):
+            log("wl_surface.destroy id=", sres.id)
+            STATE.surfaces.pop(sres.id, None)
+            sres.destroy()
+
+        def attach(sres, buffer, x, y):
+            log("wl_surface.attach buffer=", buffer, "x=", x, "y=", y)
+            if buffer is None:
+                surf.state.pending_buffer = None
+                surf.state.pending_buffer_resource = None
+                return
+            try:
+                surf.state.pending_buffer = buffer.state
+                surf.state.pending_buffer_resource = buffer
+            except AttributeError:
+                log("wl_surface.attach: buffer has no .state")
+                surf.state.pending_buffer = None
+                surf.state.pending_buffer_resource = None
+
+        def damage(sres, x, y, width, height):
+            log("wl_surface.damage x=", x, "y=", y, "w=", width, "h=", height)
+
+        def frame(sres, callback_id):
+            log("wl_surface.frame callback_id=", callback_id)
+            cb = MyCallbackResource(
+                lib.wl_resource_get_client(sres._ptr),
+                sres.version,
+                callback_id,
+            )
+            STATE.callbacks[callback_id] = cb
+            surf.state.frame_callbacks.append(cb)
+        def commit(sres):
+            surf = STATE.surfaces.get(sres.id)
+            log("wl_surface.commit")
+
+            if surf is None:
+                return
+
+            if surf.state.pending_buffer_resource is not None:
+                surf.state.current_buffer = surf.state.pending_buffer
+                surf.state.current_buffer_resource = surf.state.pending_buffer_resource
+                surf.state.pending_buffer = None
+                surf.state.pending_buffer_resource = None
+            elif surf.state.pending_buffer is None:
+                surf.state.current_buffer = None
+                surf.state.current_buffer_resource = None
+
+            # Promote pending attach state into the committed/current state.
+            if surf.state.pending_buffer_resource is not None:
+                surf.state.current_buffer = surf.state.pending_buffer
+                surf.state.current_buffer_resource = surf.state.pending_buffer_resource
+                surf.state.pending_buffer = None
+                surf.state.pending_buffer_resource = None
+            elif surf.state.pending_buffer is None:
+                # attach(NULL) case clears the current buffer
+                surf.state.current_buffer = None
+                surf.state.current_buffer_resource = None
+
+            if surf.state.current_buffer is not None:
+                try:
+                    if hasattr(surf.state.current_buffer, "pool"):
+                        log("[renderer] shm buffer committed")
+                        RENDERER.present_buffer(surf.state.current_buffer)
+                    elif hasattr(surf.state.current_buffer, "egl_image"):
+                        global DMABUF_GL_RENDERER
+                        log("[renderer] dmabuf buffer committed")
+                        if DMABUF_GL_RENDERER is None:
+                            DMABUF_GL_RENDERER = GlesDmabufRenderer((640, 360)).initialize()
+                        DMABUF_GL_RENDERER.present_egl_image(
+                            surf.state.current_buffer.egl_image,
+                            surf.state.current_buffer.width,
+                            surf.state.current_buffer.height,
+                        )
+                    else:
+                        log("[renderer] unknown buffer type on commit")
+                except Exception as e:
+                    log("present_buffer failed:", repr(e))
+
+            buf = surf.state.current_buffer_resource
+            if buf is not None:
+                try:
+                    log("sending wl_buffer.release id=", getattr(buf, "id", None))
+                    buf.release()
+                except Exception as e:
+                    log("wl_buffer.release failed:", repr(e))
+
+            callbacks = surf.state.frame_callbacks[:]
+            surf.state.frame_callbacks.clear()
+            now_ms = int(time.monotonic() * 1000) & 0xFFFFFFFF
+            for cb in callbacks:
+                try:
+                    cb.done(now_ms)
+                except Exception as e:
+                    log("frame callback done failed:", repr(e))
+
+
+        def set_opaque_region(sres, region):
+
+            log("wl_surface.set_opaque_region region=", region)
+
+        def set_input_region(sres, region):
+            log("wl_surface.set_input_region region=", region)
+
+        def set_buffer_transform(sres, transform):
+            log("wl_surface.set_buffer_transform transform=", transform)
+
+        def set_buffer_scale(sres, scale):
+            log("wl_surface.set_buffer_scale scale=", scale)
+
+        def damage_buffer(sres, x, y, width, height):
+            log("wl_surface.damage_buffer x=", x, "y=", y, "w=", width, "h=", height)
+
+        surf.dispatcher["destroy"] = destroy_surface
+        surf.dispatcher["attach"] = attach
+        surf.dispatcher["damage"] = damage
+        surf.dispatcher["frame"] = frame
+        surf.dispatcher["set_opaque_region"] = set_opaque_region
+        surf.dispatcher["set_input_region"] = set_input_region
+        surf.dispatcher["commit"] = commit
+
+        message_names = [m.name for m in surf.dispatcher.messages]
+        if "set_buffer_transform" in message_names:
+            surf.dispatcher["set_buffer_transform"] = set_buffer_transform
+        if "set_buffer_scale" in message_names:
+            surf.dispatcher["set_buffer_scale"] = set_buffer_scale
+        if "damage_buffer" in message_names:
+            surf.dispatcher["damage_buffer"] = damage_buffer
+
+    def create_region(res, id_):
+        log("wl_compositor.create_region id=", id_, "(stubbed)")
+
+    resource.dispatcher["create_surface"] = create_surface
+    resource.dispatcher["create_region"] = create_region
+
+
+def bind_wl_shm(resource):
+    log("shm_bind resource=", resource, "version=", resource.version, "id=", resource.id)
+    STATE.bound_resources[("wl_shm", resource.id)] = resource
+
+    try:
+        resource.format(0)
+    except Exception as e:
+        log("shm.format failed:", repr(e))
+
+    def create_pool(res, id_, fd, size):
+        log("shm.create_pool id=", id_, "fd=", fd, "size=", size)
+        pool = MyShmPoolResource(lib.wl_resource_get_client(res._ptr), res.version, id_, fd, size)
+        STATE.pools[id_] = pool
+
+        def create_buffer(pres, id2, offset, width, height, stride, format_):
+            log(
+                "MyShmPoolResource.create_buffer",
+                f"id={id2}",
+                f"offset={offset}",
+                f"width={width}",
+                f"height={height}",
+                f"stride={stride}",
+                f"format={format_}",
+            )
+            pool.state.refcount += 1
+            log("ShmPoolState.refcount++ id=", pres.id, "refcount=", pool.state.refcount)
+
+            buf_state = BufferState(
+                pool=pool.state,
+                offset=offset,
+                width=width,
+                height=height,
+                stride=stride,
+                format=format_,
+            )
+            buf = MyBufferResource(
+                lib.wl_resource_get_client(pres._ptr),
+                pres.version,
+                id2,
+                buf_state,
+            )
+            STATE.buffers[id2] = buf
+
+        def resize(pres, size2):
+            log("MyShmPoolResource.resize size=", size2)
+            pool.state.mm.close()
+            pool.state.mm = mmap.mmap(pool.state.fd, size2, access=mmap.ACCESS_READ)
+            pool.state.size = size2
+
+        def destroy_pool(pres):
+            log("MyShmPoolResource.destroy id=", pres.id, "(mark destroyed; buffers may still hold refs)")
+            pool.state.destroyed = True
+            pool.state.maybe_cleanup()
+            STATE.pools.pop(pres.id, None)
+            pres.destroy()
+
+        pool.dispatcher["create_buffer"] = create_buffer
+        pool.dispatcher["resize"] = resize
+        pool.dispatcher["destroy"] = destroy_pool
+
+    def release(res):
+        log("wl_shm.release")
+
+    resource.dispatcher["create_pool"] = create_pool
+    resource.dispatcher["release"] = release
+
+
+def bind_xdg_wm_base(resource):
+    log("xdg_wm_base_bind resource=", resource, "version=", resource.version, "id=", resource.id)
+    STATE.bound_resources[("xdg_wm_base", resource.id)] = resource
+
+    def destroy(res):
+        log("xdg_wm_base.destroy")
+
+    def create_positioner(res, id_):
+        log("xdg_wm_base.create_positioner id=", id_, "(stubbed)")
+
+    def get_xdg_surface(res, id_, surface):
+        log("xdg_wm_base.get_xdg_surface id=", id_, "surface=", surface)
+        xsurf = MyXdgSurfaceResource(lib.wl_resource_get_client(res._ptr), res.version, id_)
+        STATE.xdg_surfaces[id_] = xsurf
+
+        def get_toplevel(xres, id2):
+            log("xdg_surface.get_toplevel id=", id2)
+            top = MyXdgToplevelResource(lib.wl_resource_get_client(xres._ptr), xres.version, id2)
+            STATE.xdg_toplevels[id2] = top
+
+            def set_title(tres, title):
+                log("xdg_toplevel.set_title", title)
+
+            def set_app_id(tres, app_id):
+                log("xdg_toplevel.set_app_id", app_id)
+
+            def destroy_toplevel(tres):
+                log("xdg_toplevel.destroy")
+                STATE.xdg_toplevels.pop(tres.id, None)
+                tres.destroy()
+
+            top.dispatcher["set_title"] = set_title
+            top.dispatcher["set_app_id"] = set_app_id
+            top.dispatcher["destroy"] = destroy_toplevel
+
+            serial = STATE.next_serial()
+            xsurf.configure(serial)
+            log("xdg_surface.configure serial=", serial)
+
+        def ack_configure(xres, serial):
+            log("xdg_surface.ack_configure serial=", serial)
+
+        def destroy_xdg_surface(xres):
+            log("xdg_surface.destroy")
+            STATE.xdg_surfaces.pop(xres.id, None)
+            xres.destroy()
+
+        xsurf.dispatcher["get_toplevel"] = get_toplevel
+        xsurf.dispatcher["ack_configure"] = ack_configure
+        xsurf.dispatcher["destroy"] = destroy_xdg_surface
+
+    def pong(res, serial):
+        log("xdg_wm_base.pong serial=", serial)
+
+    resource.dispatcher["destroy"] = destroy
+    resource.dispatcher["create_positioner"] = create_positioner
+    resource.dispatcher["get_xdg_surface"] = get_xdg_surface
+    resource.dispatcher["pong"] = pong
+
+
+
+def bind_linux_dmabuf(resource):
+    log("linux_dmabuf_bind resource=", resource, "version=", resource.version, "id=", resource.id)
+    STATE.bound_resources[("zwp_linux_dmabuf_v1", resource.id)] = resource
+
+    try:
+        resource.format(DRM_FORMAT_XRGB8888)
+        resource.format(DRM_FORMAT_ARGB8888)
+        log("linux_dmabuf.format advertised XRGB8888/ARGB8888")
+    except Exception as e:
+        log("linux_dmabuf.format failed:", repr(e))
+
+    try:
+        resource.modifier(DRM_FORMAT_XRGB8888, DRM_FORMAT_MOD_LINEAR_HI, DRM_FORMAT_MOD_LINEAR_LO)
+        resource.modifier(DRM_FORMAT_ARGB8888, DRM_FORMAT_MOD_LINEAR_HI, DRM_FORMAT_MOD_LINEAR_LO)
+        log("linux_dmabuf.modifier advertised XRGB8888/ARGB8888 linear")
+    except Exception as e:
+        log("linux_dmabuf.modifier failed:", repr(e))
+
+    def destroy_dmabuf(res):
+        log("zwp_linux_dmabuf_v1.destroy")
+
+    def create_params(res, params_id):
+        log("zwp_linux_dmabuf_v1.create_params params_id=", params_id)
+        params = ZwpLinuxBufferParamsV1.resource_class(
+            lib.wl_resource_get_client(res._ptr),
+            res.version,
+            params_id,
+        )
+        DMABUF_PARAMS[params_id] = {
+            "resource": params,
+            "planes": [],
+        }
+
+        def destroy_params(pres):
+            log("zwp_linux_buffer_params_v1.destroy id=", pres.id)
+            DMABUF_PARAMS.pop(pres.id, None)
+            pres.destroy()
+
+        def add_plane(pres, fd, plane_idx, offset, stride, modifier_hi, modifier_lo):
+            log(
+                "zwp_linux_buffer_params_v1.add",
+                "id=", pres.id,
+                "fd=", fd,
+                "plane_idx=", plane_idx,
+                "offset=", offset,
+                "stride=", stride,
+                "modifier_hi=", modifier_hi,
+                "modifier_lo=", modifier_lo,
+            )
+            entry = DMABUF_PARAMS.setdefault(pres.id, {"resource": pres, "planes": []})
+            entry["planes"].append(
+                {
+                    "fd": fd,
+                    "plane_idx": plane_idx,
+                    "offset": offset,
+                    "stride": stride,
+                    "modifier_hi": modifier_hi,
+                    "modifier_lo": modifier_lo,
+                }
+            )
+
+        def create_buffer_from_params(pres, width, height, format_, flags):
+            log(
+                "zwp_linux_buffer_params_v1.create",
+                "id=", pres.id,
+                "width=", width,
+                "height=", height,
+                "format=", format_,
+                "flags=", flags,
+            )
+
+            entry = DMABUF_PARAMS.get(pres.id, {})
+            planes = sorted(entry.get("planes", []), key=lambda p: p["plane_idx"])
+
+            if not planes:
+                log("zwp_linux_buffer_params_v1.create: no planes recorded")
+                try:
+                    pres.failed()
+                    log("zwp_linux_buffer_params_v1.failed sent import_ok= False")
+                except Exception as e:
+                    log("zwp_linux_buffer_params_v1.failed send failed:", repr(e))
+                return
+
+            if EGL_DMABUF_IMPORTER is None:
+                log("zwp_linux_buffer_params_v1.create: EGL importer unavailable")
+                try:
+                    pres.failed()
+                    log("zwp_linux_buffer_params_v1.failed sent import_ok= False")
+                except Exception as e:
+                    log("zwp_linux_buffer_params_v1.failed send failed:", repr(e))
+                return
+
+            if len(planes) != 1:
+                log(
+                    "zwp_linux_buffer_params_v1.create: multi-plane import not implemented yet, planes=",
+                    len(planes),
+                )
+                try:
+                    pres.failed()
+                    log("zwp_linux_buffer_params_v1.failed sent import_ok= False")
+                except Exception as e:
+                    log("zwp_linux_buffer_params_v1.failed send failed:", repr(e))
+                return
+
+            plane0 = planes[0]
+            modifier = ((plane0["modifier_hi"] & 0xFFFFFFFF) << 32) | (plane0["modifier_lo"] & 0xFFFFFFFF)
+
+            try:
+                image = EGL_DMABUF_IMPORTER.import_dmabuf_image(
+                    fd=plane0["fd"],
+                    width=width,
+                    height=height,
+                    fourcc=format_,
+                    stride=plane0["stride"],
+                    offset=plane0["offset"],
+                    modifier=modifier,
+                )
+                log(
+                    "DMABUF IMPORT SUCCESS",
+                    "params_id=", pres.id,
+                    "width=", width,
+                    "height=", height,
+                    "format=", format_,
+                    "stride=", plane0["stride"],
+                    "modifier=", modifier,
+                    "image=", image,
+                )
+            except Exception as e:
+                log("DMABUF IMPORT FAILED", "params_id=", pres.id, repr(e))
+                try:
+                    pres.failed()
+                    log("zwp_linux_buffer_params_v1.failed sent import_ok= False")
+                except Exception as e2:
+                    log("zwp_linux_buffer_params_v1.failed send failed:", repr(e2))
+                return
+
+            owned_planes = []
+            for p in planes:
+                owned = dict(p)
+                owned["fd"] = os.dup(p["fd"])
+                owned_planes.append(owned)
+
+            buf_state = DmabufBufferState(
+                width=width,
+                height=height,
+                format=format_,
+                modifier=modifier,
+                planes=owned_planes,
+                egl_image=image,
+            )
+
+            client = lib.wl_resource_get_client(pres._ptr)
+            buf = MyBufferResource(client, 1, 0, buf_state)
+            log(
+                "created compositor dmabuf buffer resource",
+                "buf.id=", buf.id,
+                "buf=", buf,
+                "buf._ptr=", getattr(buf, "_ptr", None),
+            )
+
+            def destroy_buffer(bres):
+                log("wl_buffer.destroy request id=", bres.id)
+                bres.destroy()
+
+            buf.dispatcher["destroy"] = destroy_buffer
+
+            try:
+                log(
+                    "about to send zwp_linux_buffer_params_v1.created",
+                    "params_id=", pres.id,
+                    "buffer_id=", buf.id,
+                    "buffer_obj=", buf,
+                    "buffer_ptr=", getattr(buf, "_ptr", None),
+                )
+                args = ffi.new("union wl_argument[1]")
+                args[0].o = ffi.cast("struct wl_object *", buf._ptr)
+                lib.wl_resource_post_event_array(pres._ptr, 0, args)
+                log("zwp_linux_buffer_params_v1.created sent", "params_id=", pres.id, "buffer_id=", buf.id)
+            except Exception as e:
+                log("zwp_linux_buffer_params_v1.created send failed:", repr(e))
+                try:
+                    buf.destroy()
+                except Exception:
+                    pass
+                try:
+                    pres.failed()
+                    log("zwp_linux_buffer_params_v1.failed sent import_ok= False")
+                except Exception as e2:
+                    log("zwp_linux_buffer_params_v1.failed send failed:", repr(e2))
+
+        def create_immed(pres, buffer_id, width, height, format_, flags):
+            log(
+                "zwp_linux_buffer_params_v1.create_immed",
+                "id=", pres.id,
+                "buffer_id=", buffer_id,
+                "width=", width,
+                "height=", height,
+                "format=", format_,
+                "flags=", flags,
+            )
+            try:
+                pres.failed()
+                log("zwp_linux_buffer_params_v1.failed sent for create_immed")
+            except Exception as e:
+                log("zwp_linux_buffer_params_v1.failed send failed:", repr(e))
+
+        params.dispatcher["destroy"] = destroy_params
+        params.dispatcher["add"] = add_plane
+        params.dispatcher["create"] = create_buffer_from_params
+        params.dispatcher["create_immed"] = create_immed
+
+    resource.dispatcher["destroy"] = destroy_dmabuf
+    resource.dispatcher["create_params"] = create_params
+
+
+class ShmPreviewBridge:
+    def __init__(self):
+        self.display = None
+
+    def setup(self):
+        log("=== Moksha-Warp SHM Preview Bridge ===")
+        self.display = Display()
+        log("Display created:", self.display is not None)
+
+        socket_name = self.display.add_socket("wayland-warp")
+        if isinstance(socket_name, bytes):
+            socket_name = socket_name.decode()
+        STATE.socket_name = socket_name
+
+        log("Socket created:", socket_name is not None)
+        log("Socket name:", socket_name)
+        log("XDG_RUNTIME_DIR:", os.environ.get("XDG_RUNTIME_DIR"))
+
+        global EGL_DMABUF_IMPORTER
+        try:
+            EGL_DMABUF_IMPORTER = EglDmabufImporter().initialize()
+            log(
+                "EGL dma-buf importer ready:",
+                f"EGL {EGL_DMABUF_IMPORTER.major}.{EGL_DMABUF_IMPORTER.minor}",
+                "import_ext=",
+                EGL_DMABUF_IMPORTER.has_extension("EGL_EXT_image_dma_buf_import"),
+                "modifiers_ext=",
+                EGL_DMABUF_IMPORTER.has_extension("EGL_EXT_image_dma_buf_import_modifiers"),
+            )
+        except Exception as e:
+            EGL_DMABUF_IMPORTER = None
+            log("EGL dma-buf importer init failed:", repr(e))
+
+        compositor_global = WlCompositor.global_class(self.display, version=4)
+        compositor_global.bind_func = bind_wl_compositor
+        STATE.server_globals.append(compositor_global)
+        STATE.globals.append("wl_compositor")
+
+        shm_global = WlShm.global_class(self.display, version=1)
+        shm_global.bind_func = bind_wl_shm
+        STATE.server_globals.append(shm_global)
+        STATE.globals.append("wl_shm")
+
+        xdg_global = XdgWmBase.global_class(self.display, version=1)
+        xdg_global.bind_func = bind_xdg_wm_base
+        STATE.server_globals.append(xdg_global)
+        STATE.globals.append("xdg_wm_base")
+
+        dmabuf_global = ZwpLinuxDmabufV1.global_class(self.display, version=3)
+        dmabuf_global.bind_func = bind_linux_dmabuf
+        STATE.server_globals.append(dmabuf_global)
+        STATE.globals.append("zwp_linux_dmabuf_v1")
+
+        log("Globals:")
+        for g in STATE.globals:
+            log(" ", g)
+
+        save_report()
+        log("")
+        log("Run weston-simple-egl against socket:", socket_name)
+        log(f"WAYLAND_DISPLAY={socket_name} weston-simple-egl")
+        log("")
+
+    def run(self):
+        if self.display is None:
+            self.setup()
+
+        def _shutdown(signum, frame):
+            raise SystemExit(0)
+
+        signal.signal(signal.SIGINT, _shutdown)
+        signal.signal(signal.SIGTERM, _shutdown)
+
+        event_loop = self.display.get_event_loop()
+
+        while True:
+            RENDERER.pump()
+            self.display.flush_clients()
+            event_loop.dispatch(0)
+            time.sleep(0.005)
+
+
+def main():
+    bridge = ShmPreviewBridge()
+    try:
+        bridge.setup()
+        bridge.run()
+    except SystemExit:
+        log("Exiting cleanly.")
+    except KeyboardInterrupt:
+        log("Interrupted.")
+    except Exception as e:
+        log("Fatal error:", repr(e))
+        raise
+
+
+if __name__ == "__main__":
+    main()

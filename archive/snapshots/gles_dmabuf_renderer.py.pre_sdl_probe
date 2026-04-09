@@ -1,0 +1,307 @@
+#!/usr/bin/env python3
+import ctypes
+from ctypes.util import find_library
+
+import pygame
+
+
+GL_CONTEXT_MAJOR_VERSION = pygame.GL_CONTEXT_MAJOR_VERSION
+GL_CONTEXT_MINOR_VERSION = pygame.GL_CONTEXT_MINOR_VERSION
+GL_CONTEXT_PROFILE_MASK = pygame.GL_CONTEXT_PROFILE_MASK
+GL_CONTEXT_PROFILE_ES = pygame.GL_CONTEXT_PROFILE_ES
+GL_DOUBLEBUFFER = pygame.GL_DOUBLEBUFFER
+
+GL_VENDOR = 0x1F00
+GL_RENDERER = 0x1F01
+GL_VERSION = 0x1F02
+GL_EXTENSIONS = 0x1F03
+
+GL_COLOR_BUFFER_BIT = 0x00004000
+GL_TEXTURE_2D = 0x0DE1
+GL_TEXTURE_MIN_FILTER = 0x2801
+GL_TEXTURE_MAG_FILTER = 0x2800
+GL_TEXTURE_WRAP_S = 0x2802
+GL_TEXTURE_WRAP_T = 0x2803
+GL_LINEAR = 0x2601
+GL_CLAMP_TO_EDGE = 0x812F
+GL_TRIANGLE_STRIP = 0x0005
+GL_FLOAT = 0x1406
+GL_FALSE = 0
+GL_VERTEX_SHADER = 0x8B31
+GL_FRAGMENT_SHADER = 0x8B30
+GL_COMPILE_STATUS = 0x8B81
+GL_LINK_STATUS = 0x8B82
+GL_NO_ERROR = 0
+
+
+VERTEX_SHADER_SOURCE = b"""
+attribute vec2 a_pos;
+attribute vec2 a_uv;
+varying vec2 v_uv;
+void main() {
+    v_uv = a_uv;
+    gl_Position = vec4(a_pos, 0.0, 1.0);
+}
+"""
+
+FRAGMENT_SHADER_SOURCE = b"""
+precision mediump float;
+uniform sampler2D u_tex;
+varying vec2 v_uv;
+void main() {
+    gl_FragColor = texture2D(u_tex, v_uv);
+}
+"""
+
+
+class GlesDmabufRenderer:
+    def __init__(self, size=(640, 360)):
+        self.size = size
+        self.ready = False
+        self.texture = ctypes.c_uint(0)
+        self.program = ctypes.c_uint(0)
+        self.a_pos = -1
+        self.a_uv = -1
+        self.u_tex = -1
+        self.vertex_data = (ctypes.c_float * 16)(
+            -1.0, -1.0, 0.0, 0.0,
+             1.0, -1.0, 1.0, 0.0,
+            -1.0,  1.0, 0.0, 1.0,
+             1.0,  1.0, 1.0, 1.0,
+        )
+
+        self.libegl = ctypes.CDLL(find_library("EGL"))
+        self.libgles = ctypes.CDLL(find_library("GLESv2"))
+
+        self.libegl.eglGetProcAddress.argtypes = [ctypes.c_char_p]
+        self.libegl.eglGetProcAddress.restype = ctypes.c_void_p
+
+        self.libegl.eglGetCurrentDisplay.argtypes = []
+        self.libegl.eglGetCurrentDisplay.restype = ctypes.c_void_p
+
+        self.libgles.glGetString.argtypes = [ctypes.c_uint]
+        self.libgles.glGetString.restype = ctypes.c_char_p
+
+        self.libgles.glViewport.argtypes = [ctypes.c_int, ctypes.c_int, ctypes.c_int, ctypes.c_int]
+        self.libgles.glViewport.restype = None
+
+        self.libgles.glClearColor.argtypes = [ctypes.c_float, ctypes.c_float, ctypes.c_float, ctypes.c_float]
+        self.libgles.glClearColor.restype = None
+
+        self.libgles.glClear.argtypes = [ctypes.c_uint]
+        self.libgles.glClear.restype = None
+
+        self.libgles.glGenTextures.argtypes = [ctypes.c_int, ctypes.POINTER(ctypes.c_uint)]
+        self.libgles.glGenTextures.restype = None
+
+        self.libgles.glBindTexture.argtypes = [ctypes.c_uint, ctypes.c_uint]
+        self.libgles.glBindTexture.restype = None
+
+        self.libgles.glTexParameteri.argtypes = [ctypes.c_uint, ctypes.c_uint, ctypes.c_int]
+        self.libgles.glTexParameteri.restype = None
+
+        self.libgles.glCreateShader.argtypes = [ctypes.c_uint]
+        self.libgles.glCreateShader.restype = ctypes.c_uint
+
+        self.libgles.glShaderSource.argtypes = [
+            ctypes.c_uint,
+            ctypes.c_int,
+            ctypes.POINTER(ctypes.c_char_p),
+            ctypes.POINTER(ctypes.c_int),
+        ]
+        self.libgles.glShaderSource.restype = None
+
+        self.libgles.glCompileShader.argtypes = [ctypes.c_uint]
+        self.libgles.glCompileShader.restype = None
+
+        self.libgles.glGetShaderiv.argtypes = [ctypes.c_uint, ctypes.c_uint, ctypes.POINTER(ctypes.c_int)]
+        self.libgles.glGetShaderiv.restype = None
+
+        self.libgles.glGetShaderInfoLog.argtypes = [ctypes.c_uint, ctypes.c_int, ctypes.POINTER(ctypes.c_int), ctypes.c_char_p]
+        self.libgles.glGetShaderInfoLog.restype = None
+
+        self.libgles.glCreateProgram.argtypes = []
+        self.libgles.glCreateProgram.restype = ctypes.c_uint
+
+        self.libgles.glAttachShader.argtypes = [ctypes.c_uint, ctypes.c_uint]
+        self.libgles.glAttachShader.restype = None
+
+        self.libgles.glLinkProgram.argtypes = [ctypes.c_uint]
+        self.libgles.glLinkProgram.restype = None
+
+        self.libgles.glGetProgramiv.argtypes = [ctypes.c_uint, ctypes.c_uint, ctypes.POINTER(ctypes.c_int)]
+        self.libgles.glGetProgramiv.restype = None
+
+        self.libgles.glGetProgramInfoLog.argtypes = [ctypes.c_uint, ctypes.c_int, ctypes.POINTER(ctypes.c_int), ctypes.c_char_p]
+        self.libgles.glGetProgramInfoLog.restype = None
+
+        self.libgles.glUseProgram.argtypes = [ctypes.c_uint]
+        self.libgles.glUseProgram.restype = None
+
+        self.libgles.glGetAttribLocation.argtypes = [ctypes.c_uint, ctypes.c_char_p]
+        self.libgles.glGetAttribLocation.restype = ctypes.c_int
+
+        self.libgles.glGetUniformLocation.argtypes = [ctypes.c_uint, ctypes.c_char_p]
+        self.libgles.glGetUniformLocation.restype = ctypes.c_int
+
+        self.libgles.glUniform1i.argtypes = [ctypes.c_int, ctypes.c_int]
+        self.libgles.glUniform1i.restype = None
+
+        self.libgles.glVertexAttribPointer.argtypes = [
+            ctypes.c_uint,
+            ctypes.c_int,
+            ctypes.c_uint,
+            ctypes.c_ubyte,
+            ctypes.c_int,
+            ctypes.c_void_p,
+        ]
+        self.libgles.glVertexAttribPointer.restype = None
+
+        self.libgles.glEnableVertexAttribArray.argtypes = [ctypes.c_uint]
+        self.libgles.glEnableVertexAttribArray.restype = None
+
+        self.libgles.glDrawArrays.argtypes = [ctypes.c_uint, ctypes.c_int, ctypes.c_int]
+        self.libgles.glDrawArrays.restype = None
+
+        self.libgles.glGetError.argtypes = []
+        self.libgles.glGetError.restype = ctypes.c_uint
+
+        self.glEGLImageTargetTexture2DOES = None
+
+    def _gl_string(self, which):
+        ptr = self.libgles.glGetString(which)
+        if not ptr:
+            return ""
+        return ptr.decode("utf-8", errors="replace")
+
+    def _compile_shader(self, shader_type, source):
+        shader = self.libgles.glCreateShader(shader_type)
+        src = ctypes.c_char_p(source)
+        length = ctypes.c_int(len(source))
+        self.libgles.glShaderSource(shader, 1, ctypes.byref(src), ctypes.byref(length))
+        self.libgles.glCompileShader(shader)
+
+        status = ctypes.c_int(0)
+        self.libgles.glGetShaderiv(shader, GL_COMPILE_STATUS, ctypes.byref(status))
+        if not status.value:
+            buf = ctypes.create_string_buffer(4096)
+            out_len = ctypes.c_int(0)
+            self.libgles.glGetShaderInfoLog(shader, len(buf), ctypes.byref(out_len), buf)
+            raise RuntimeError(f"shader compile failed: {buf.value.decode('utf-8', errors='replace')}")
+        return shader
+
+    def _build_program(self):
+        vs = self._compile_shader(GL_VERTEX_SHADER, VERTEX_SHADER_SOURCE)
+        fs = self._compile_shader(GL_FRAGMENT_SHADER, FRAGMENT_SHADER_SOURCE)
+
+        program = self.libgles.glCreateProgram()
+        self.libgles.glAttachShader(program, vs)
+        self.libgles.glAttachShader(program, fs)
+        self.libgles.glLinkProgram(program)
+
+        status = ctypes.c_int(0)
+        self.libgles.glGetProgramiv(program, GL_LINK_STATUS, ctypes.byref(status))
+        if not status.value:
+            buf = ctypes.create_string_buffer(4096)
+            out_len = ctypes.c_int(0)
+            self.libgles.glGetProgramInfoLog(program, len(buf), ctypes.byref(out_len), buf)
+            raise RuntimeError(f"program link failed: {buf.value.decode('utf-8', errors='replace')}")
+
+        self.program = ctypes.c_uint(program)
+        self.a_pos = self.libgles.glGetAttribLocation(program, b"a_pos")
+        self.a_uv = self.libgles.glGetAttribLocation(program, b"a_uv")
+        self.u_tex = self.libgles.glGetUniformLocation(program, b"u_tex")
+
+        if self.a_pos < 0 or self.a_uv < 0 or self.u_tex < 0:
+            raise RuntimeError(
+                f"program locations invalid: a_pos={self.a_pos} a_uv={self.a_uv} u_tex={self.u_tex}"
+            )
+
+    def initialize(self):
+        if not pygame.get_init():
+            pygame.init()
+        if not pygame.display.get_init():
+            pygame.display.init()
+
+        pygame.display.gl_set_attribute(GL_CONTEXT_PROFILE_MASK, GL_CONTEXT_PROFILE_ES)
+        pygame.display.gl_set_attribute(GL_CONTEXT_MAJOR_VERSION, 2)
+        pygame.display.gl_set_attribute(GL_CONTEXT_MINOR_VERSION, 0)
+        pygame.display.gl_set_attribute(GL_DOUBLEBUFFER, 1)
+
+        self.screen = pygame.display.set_mode(self.size, pygame.OPENGL | pygame.DOUBLEBUF)
+        pygame.display.set_caption("moksha-warp dmabuf preview")
+
+        vendor = self._gl_string(GL_VENDOR)
+        renderer = self._gl_string(GL_RENDERER)
+        version = self._gl_string(GL_VERSION)
+        extensions = self._gl_string(GL_EXTENSIONS)
+
+        print("[gles] vendor:", vendor, flush=True)
+        print("[gles] renderer:", renderer, flush=True)
+        print("[gles] version:", version, flush=True)
+        print("[gles] has GL_OES_EGL_image:", "GL_OES_EGL_image" in extensions, flush=True)
+        cur_dpy = self.libegl.eglGetCurrentDisplay()
+        print(f"[gles] current EGL display={int(ctypes.cast(cur_dpy, ctypes.c_void_p).value or 0)}", flush=True)
+
+        proc = self.libegl.eglGetProcAddress(b"glEGLImageTargetTexture2DOES")
+        if not proc:
+            raise RuntimeError("glEGLImageTargetTexture2DOES not available via eglGetProcAddress")
+
+        PFN = ctypes.CFUNCTYPE(None, ctypes.c_uint, ctypes.c_void_p)
+        self.glEGLImageTargetTexture2DOES = PFN(proc)
+
+        self.libgles.glViewport(0, 0, self.size[0], self.size[1])
+
+        self.libgles.glGenTextures(1, ctypes.byref(self.texture))
+        self.libgles.glBindTexture(GL_TEXTURE_2D, self.texture.value)
+        self.libgles.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR)
+        self.libgles.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR)
+        self.libgles.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE)
+        self.libgles.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE)
+
+        self._build_program()
+        print("[gles] shader program ready", flush=True)
+
+        self.ready = True
+        return self
+
+    def present_egl_image(self, egl_image, width, height):
+        if not self.ready:
+            raise RuntimeError("renderer not initialized")
+
+        print(f"[gles] present start {width}x{height} image={egl_image}", flush=True)
+
+        self.libgles.glViewport(0, 0, self.size[0], self.size[1])
+        self.libgles.glClearColor(0.08, 0.08, 0.10, 1.0)
+        self.libgles.glClear(GL_COLOR_BUFFER_BIT)
+
+        self.libgles.glUseProgram(self.program.value)
+
+        self.libgles.glBindTexture(GL_TEXTURE_2D, self.texture.value)
+        print("[gles] before glEGLImageTargetTexture2DOES", flush=True)
+        self.glEGLImageTargetTexture2DOES(GL_TEXTURE_2D, ctypes.c_void_p(egl_image))
+        print("[gles] after glEGLImageTargetTexture2DOES", flush=True)
+        self.libgles.glUniform1i(self.u_tex, 0)
+
+        stride = 4 * ctypes.sizeof(ctypes.c_float)
+        base_ptr = ctypes.cast(self.vertex_data, ctypes.c_void_p)
+
+        self.libgles.glEnableVertexAttribArray(self.a_pos)
+        self.libgles.glVertexAttribPointer(
+            self.a_pos, 2, GL_FLOAT, GL_FALSE, stride, base_ptr
+        )
+
+        uv_ptr = ctypes.c_void_p(base_ptr.value + (2 * ctypes.sizeof(ctypes.c_float)))
+        self.libgles.glEnableVertexAttribArray(self.a_uv)
+        self.libgles.glVertexAttribPointer(
+            self.a_uv, 2, GL_FLOAT, GL_FALSE, stride, uv_ptr
+        )
+
+        print("[gles] before glDrawArrays", flush=True)
+        self.libgles.glDrawArrays(GL_TRIANGLE_STRIP, 0, 4)
+        print("[gles] after glDrawArrays", flush=True)
+        err = self.libgles.glGetError()
+        print(f"[gles] after draw glGetError=0x{err:04x}", flush=True)
+
+        pygame.display.flip()
+        print("[gles] flip done", flush=True)

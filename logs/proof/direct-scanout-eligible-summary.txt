@@ -1,0 +1,3990 @@
+60:DMABUF IMPORT SUCCESS params_id= 9 width= 256 height= 256 format= 875713112 stride= 1024 modifier= 0 image= 94698465354912
+74:DMABUF IMPORT SUCCESS params_id= 10 width= 256 height= 256 format= 875713112 stride= 1024 modifier= 0 image= 94698465369728
+88:DMABUF IMPORT SUCCESS params_id= 11 width= 256 height= 256 format= 875713112 stride= 1024 modifier= 0 image= 94698465337680
+118:[renderer] dmabuf buffer committed
+133:[gles] flip done
+134:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+149:[renderer] dmabuf buffer committed
+156:[gles] flip done
+157:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+172:[renderer] dmabuf buffer committed
+179:[gles] flip done
+180:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+195:[renderer] dmabuf buffer committed
+202:[gles] flip done
+203:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+218:[renderer] dmabuf buffer committed
+225:[gles] flip done
+226:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+241:[renderer] dmabuf buffer committed
+248:[gles] flip done
+249:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+264:[renderer] dmabuf buffer committed
+271:[gles] flip done
+272:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+287:[renderer] dmabuf buffer committed
+294:[gles] flip done
+295:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+310:[renderer] dmabuf buffer committed
+317:[gles] flip done
+318:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+333:[renderer] dmabuf buffer committed
+340:[gles] flip done
+341:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+356:[renderer] dmabuf buffer committed
+363:[gles] flip done
+364:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+379:[renderer] dmabuf buffer committed
+386:[gles] flip done
+387:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+402:[renderer] dmabuf buffer committed
+409:[gles] flip done
+410:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+425:[renderer] dmabuf buffer committed
+432:[gles] flip done
+433:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+448:[renderer] dmabuf buffer committed
+455:[gles] flip done
+456:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+471:[renderer] dmabuf buffer committed
+478:[gles] flip done
+479:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+494:[renderer] dmabuf buffer committed
+501:[gles] flip done
+502:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+517:[renderer] dmabuf buffer committed
+524:[gles] flip done
+525:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+540:[renderer] dmabuf buffer committed
+547:[gles] flip done
+548:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+563:[renderer] dmabuf buffer committed
+570:[gles] flip done
+571:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+586:[renderer] dmabuf buffer committed
+593:[gles] flip done
+594:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+609:[renderer] dmabuf buffer committed
+616:[gles] flip done
+617:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+632:[renderer] dmabuf buffer committed
+639:[gles] flip done
+640:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+655:[renderer] dmabuf buffer committed
+662:[gles] flip done
+663:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+678:[renderer] dmabuf buffer committed
+685:[gles] flip done
+686:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+701:[renderer] dmabuf buffer committed
+708:[gles] flip done
+709:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+724:[renderer] dmabuf buffer committed
+731:[gles] flip done
+732:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+747:[renderer] dmabuf buffer committed
+754:[gles] flip done
+755:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+770:[renderer] dmabuf buffer committed
+777:[gles] flip done
+778:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+793:[renderer] dmabuf buffer committed
+800:[gles] flip done
+801:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+816:[renderer] dmabuf buffer committed
+823:[gles] flip done
+824:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+839:[renderer] dmabuf buffer committed
+846:[gles] flip done
+847:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+862:[renderer] dmabuf buffer committed
+869:[gles] flip done
+870:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+885:[renderer] dmabuf buffer committed
+892:[gles] flip done
+893:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+908:[renderer] dmabuf buffer committed
+915:[gles] flip done
+916:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+931:[renderer] dmabuf buffer committed
+938:[gles] flip done
+939:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+954:[renderer] dmabuf buffer committed
+961:[gles] flip done
+962:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+977:[renderer] dmabuf buffer committed
+984:[gles] flip done
+985:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1000:[renderer] dmabuf buffer committed
+1007:[gles] flip done
+1008:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1023:[renderer] dmabuf buffer committed
+1030:[gles] flip done
+1031:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1046:[renderer] dmabuf buffer committed
+1053:[gles] flip done
+1054:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1069:[renderer] dmabuf buffer committed
+1076:[gles] flip done
+1077:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1092:[renderer] dmabuf buffer committed
+1099:[gles] flip done
+1100:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1115:[renderer] dmabuf buffer committed
+1122:[gles] flip done
+1123:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1138:[renderer] dmabuf buffer committed
+1145:[gles] flip done
+1146:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1161:[renderer] dmabuf buffer committed
+1168:[gles] flip done
+1169:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1184:[renderer] dmabuf buffer committed
+1191:[gles] flip done
+1192:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1207:[renderer] dmabuf buffer committed
+1214:[gles] flip done
+1215:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1230:[renderer] dmabuf buffer committed
+1237:[gles] flip done
+1238:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1253:[renderer] dmabuf buffer committed
+1260:[gles] flip done
+1261:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1276:[renderer] dmabuf buffer committed
+1283:[gles] flip done
+1284:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1299:[renderer] dmabuf buffer committed
+1306:[gles] flip done
+1307:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1322:[renderer] dmabuf buffer committed
+1329:[gles] flip done
+1330:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1345:[renderer] dmabuf buffer committed
+1352:[gles] flip done
+1353:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1368:[renderer] dmabuf buffer committed
+1375:[gles] flip done
+1376:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1391:[renderer] dmabuf buffer committed
+1398:[gles] flip done
+1399:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1414:[renderer] dmabuf buffer committed
+1421:[gles] flip done
+1422:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1437:[renderer] dmabuf buffer committed
+1444:[gles] flip done
+1445:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1460:[renderer] dmabuf buffer committed
+1467:[gles] flip done
+1468:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1483:[renderer] dmabuf buffer committed
+1490:[gles] flip done
+1491:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1506:[renderer] dmabuf buffer committed
+1513:[gles] flip done
+1514:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1529:[renderer] dmabuf buffer committed
+1536:[gles] flip done
+1537:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1552:[renderer] dmabuf buffer committed
+1559:[gles] flip done
+1560:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1575:[renderer] dmabuf buffer committed
+1582:[gles] flip done
+1583:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1598:[renderer] dmabuf buffer committed
+1605:[gles] flip done
+1606:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1621:[renderer] dmabuf buffer committed
+1628:[gles] flip done
+1629:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1644:[renderer] dmabuf buffer committed
+1651:[gles] flip done
+1652:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1667:[renderer] dmabuf buffer committed
+1674:[gles] flip done
+1675:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1690:[renderer] dmabuf buffer committed
+1697:[gles] flip done
+1698:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1713:[renderer] dmabuf buffer committed
+1720:[gles] flip done
+1721:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1736:[renderer] dmabuf buffer committed
+1743:[gles] flip done
+1744:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1759:[renderer] dmabuf buffer committed
+1766:[gles] flip done
+1767:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1782:[renderer] dmabuf buffer committed
+1789:[gles] flip done
+1790:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1805:[renderer] dmabuf buffer committed
+1812:[gles] flip done
+1813:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1828:[renderer] dmabuf buffer committed
+1835:[gles] flip done
+1836:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1851:[renderer] dmabuf buffer committed
+1858:[gles] flip done
+1859:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1874:[renderer] dmabuf buffer committed
+1881:[gles] flip done
+1882:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1897:[renderer] dmabuf buffer committed
+1904:[gles] flip done
+1905:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1920:[renderer] dmabuf buffer committed
+1927:[gles] flip done
+1928:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1943:[renderer] dmabuf buffer committed
+1950:[gles] flip done
+1951:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1966:[renderer] dmabuf buffer committed
+1973:[gles] flip done
+1974:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+1989:[renderer] dmabuf buffer committed
+1996:[gles] flip done
+1997:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2012:[renderer] dmabuf buffer committed
+2019:[gles] flip done
+2020:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2035:[renderer] dmabuf buffer committed
+2042:[gles] flip done
+2043:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2058:[renderer] dmabuf buffer committed
+2065:[gles] flip done
+2066:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2081:[renderer] dmabuf buffer committed
+2088:[gles] flip done
+2089:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2104:[renderer] dmabuf buffer committed
+2111:[gles] flip done
+2112:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2127:[renderer] dmabuf buffer committed
+2134:[gles] flip done
+2135:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2150:[renderer] dmabuf buffer committed
+2157:[gles] flip done
+2158:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2173:[renderer] dmabuf buffer committed
+2180:[gles] flip done
+2181:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2196:[renderer] dmabuf buffer committed
+2203:[gles] flip done
+2204:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2219:[renderer] dmabuf buffer committed
+2226:[gles] flip done
+2227:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2242:[renderer] dmabuf buffer committed
+2249:[gles] flip done
+2250:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2265:[renderer] dmabuf buffer committed
+2272:[gles] flip done
+2273:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2288:[renderer] dmabuf buffer committed
+2295:[gles] flip done
+2296:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2311:[renderer] dmabuf buffer committed
+2318:[gles] flip done
+2319:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2334:[renderer] dmabuf buffer committed
+2341:[gles] flip done
+2342:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2357:[renderer] dmabuf buffer committed
+2364:[gles] flip done
+2365:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2380:[renderer] dmabuf buffer committed
+2387:[gles] flip done
+2388:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2403:[renderer] dmabuf buffer committed
+2410:[gles] flip done
+2411:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2426:[renderer] dmabuf buffer committed
+2433:[gles] flip done
+2434:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2449:[renderer] dmabuf buffer committed
+2456:[gles] flip done
+2457:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2472:[renderer] dmabuf buffer committed
+2479:[gles] flip done
+2480:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2495:[renderer] dmabuf buffer committed
+2502:[gles] flip done
+2503:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2518:[renderer] dmabuf buffer committed
+2525:[gles] flip done
+2526:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2541:[renderer] dmabuf buffer committed
+2548:[gles] flip done
+2549:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2564:[renderer] dmabuf buffer committed
+2571:[gles] flip done
+2572:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2587:[renderer] dmabuf buffer committed
+2594:[gles] flip done
+2595:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2610:[renderer] dmabuf buffer committed
+2617:[gles] flip done
+2618:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2633:[renderer] dmabuf buffer committed
+2640:[gles] flip done
+2641:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2656:[renderer] dmabuf buffer committed
+2663:[gles] flip done
+2664:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2679:[renderer] dmabuf buffer committed
+2686:[gles] flip done
+2687:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2702:[renderer] dmabuf buffer committed
+2709:[gles] flip done
+2710:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2725:[renderer] dmabuf buffer committed
+2732:[gles] flip done
+2733:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2748:[renderer] dmabuf buffer committed
+2755:[gles] flip done
+2756:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2771:[renderer] dmabuf buffer committed
+2778:[gles] flip done
+2779:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2794:[renderer] dmabuf buffer committed
+2801:[gles] flip done
+2802:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2817:[renderer] dmabuf buffer committed
+2824:[gles] flip done
+2825:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2840:[renderer] dmabuf buffer committed
+2847:[gles] flip done
+2848:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2863:[renderer] dmabuf buffer committed
+2870:[gles] flip done
+2871:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2886:[renderer] dmabuf buffer committed
+2893:[gles] flip done
+2894:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2909:[renderer] dmabuf buffer committed
+2916:[gles] flip done
+2917:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2932:[renderer] dmabuf buffer committed
+2939:[gles] flip done
+2940:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2955:[renderer] dmabuf buffer committed
+2962:[gles] flip done
+2963:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+2978:[renderer] dmabuf buffer committed
+2985:[gles] flip done
+2986:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3001:[renderer] dmabuf buffer committed
+3008:[gles] flip done
+3009:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3024:[renderer] dmabuf buffer committed
+3031:[gles] flip done
+3032:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3047:[renderer] dmabuf buffer committed
+3054:[gles] flip done
+3055:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3070:[renderer] dmabuf buffer committed
+3077:[gles] flip done
+3078:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3093:[renderer] dmabuf buffer committed
+3100:[gles] flip done
+3101:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3116:[renderer] dmabuf buffer committed
+3123:[gles] flip done
+3124:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3139:[renderer] dmabuf buffer committed
+3146:[gles] flip done
+3147:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3162:[renderer] dmabuf buffer committed
+3169:[gles] flip done
+3170:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3185:[renderer] dmabuf buffer committed
+3192:[gles] flip done
+3193:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3208:[renderer] dmabuf buffer committed
+3215:[gles] flip done
+3216:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3231:[renderer] dmabuf buffer committed
+3238:[gles] flip done
+3239:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3254:[renderer] dmabuf buffer committed
+3261:[gles] flip done
+3262:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3277:[renderer] dmabuf buffer committed
+3284:[gles] flip done
+3285:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3300:[renderer] dmabuf buffer committed
+3307:[gles] flip done
+3308:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3323:[renderer] dmabuf buffer committed
+3330:[gles] flip done
+3331:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3346:[renderer] dmabuf buffer committed
+3353:[gles] flip done
+3354:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3369:[renderer] dmabuf buffer committed
+3376:[gles] flip done
+3377:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3392:[renderer] dmabuf buffer committed
+3399:[gles] flip done
+3400:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3415:[renderer] dmabuf buffer committed
+3422:[gles] flip done
+3423:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3438:[renderer] dmabuf buffer committed
+3445:[gles] flip done
+3446:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3461:[renderer] dmabuf buffer committed
+3468:[gles] flip done
+3469:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3484:[renderer] dmabuf buffer committed
+3491:[gles] flip done
+3492:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3507:[renderer] dmabuf buffer committed
+3514:[gles] flip done
+3515:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3530:[renderer] dmabuf buffer committed
+3537:[gles] flip done
+3538:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3553:[renderer] dmabuf buffer committed
+3560:[gles] flip done
+3561:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3576:[renderer] dmabuf buffer committed
+3583:[gles] flip done
+3584:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3599:[renderer] dmabuf buffer committed
+3606:[gles] flip done
+3607:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3622:[renderer] dmabuf buffer committed
+3629:[gles] flip done
+3630:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3645:[renderer] dmabuf buffer committed
+3652:[gles] flip done
+3653:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3668:[renderer] dmabuf buffer committed
+3675:[gles] flip done
+3676:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3691:[renderer] dmabuf buffer committed
+3698:[gles] flip done
+3699:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3714:[renderer] dmabuf buffer committed
+3721:[gles] flip done
+3722:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3737:[renderer] dmabuf buffer committed
+3744:[gles] flip done
+3745:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3760:[renderer] dmabuf buffer committed
+3767:[gles] flip done
+3768:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3783:[renderer] dmabuf buffer committed
+3790:[gles] flip done
+3791:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3806:[renderer] dmabuf buffer committed
+3813:[gles] flip done
+3814:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3829:[renderer] dmabuf buffer committed
+3836:[gles] flip done
+3837:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3852:[renderer] dmabuf buffer committed
+3859:[gles] flip done
+3860:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3875:[renderer] dmabuf buffer committed
+3882:[gles] flip done
+3883:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3898:[renderer] dmabuf buffer committed
+3905:[gles] flip done
+3906:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3921:[renderer] dmabuf buffer committed
+3928:[gles] flip done
+3929:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3944:[renderer] dmabuf buffer committed
+3951:[gles] flip done
+3952:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3967:[renderer] dmabuf buffer committed
+3974:[gles] flip done
+3975:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+3990:[renderer] dmabuf buffer committed
+3997:[gles] flip done
+3998:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4013:[renderer] dmabuf buffer committed
+4020:[gles] flip done
+4021:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4036:[renderer] dmabuf buffer committed
+4043:[gles] flip done
+4044:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4059:[renderer] dmabuf buffer committed
+4066:[gles] flip done
+4067:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4082:[renderer] dmabuf buffer committed
+4089:[gles] flip done
+4090:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4105:[renderer] dmabuf buffer committed
+4112:[gles] flip done
+4113:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4128:[renderer] dmabuf buffer committed
+4135:[gles] flip done
+4136:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4151:[renderer] dmabuf buffer committed
+4158:[gles] flip done
+4159:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4174:[renderer] dmabuf buffer committed
+4181:[gles] flip done
+4182:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4197:[renderer] dmabuf buffer committed
+4204:[gles] flip done
+4205:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4220:[renderer] dmabuf buffer committed
+4227:[gles] flip done
+4228:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4243:[renderer] dmabuf buffer committed
+4250:[gles] flip done
+4251:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4266:[renderer] dmabuf buffer committed
+4273:[gles] flip done
+4274:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4289:[renderer] dmabuf buffer committed
+4296:[gles] flip done
+4297:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4312:[renderer] dmabuf buffer committed
+4319:[gles] flip done
+4320:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4335:[renderer] dmabuf buffer committed
+4342:[gles] flip done
+4343:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4358:[renderer] dmabuf buffer committed
+4365:[gles] flip done
+4366:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4381:[renderer] dmabuf buffer committed
+4388:[gles] flip done
+4389:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4404:[renderer] dmabuf buffer committed
+4411:[gles] flip done
+4412:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4427:[renderer] dmabuf buffer committed
+4434:[gles] flip done
+4435:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4450:[renderer] dmabuf buffer committed
+4457:[gles] flip done
+4458:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4473:[renderer] dmabuf buffer committed
+4480:[gles] flip done
+4481:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4496:[renderer] dmabuf buffer committed
+4503:[gles] flip done
+4504:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4519:[renderer] dmabuf buffer committed
+4526:[gles] flip done
+4527:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4542:[renderer] dmabuf buffer committed
+4549:[gles] flip done
+4550:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4565:[renderer] dmabuf buffer committed
+4572:[gles] flip done
+4573:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4588:[renderer] dmabuf buffer committed
+4595:[gles] flip done
+4596:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4611:[renderer] dmabuf buffer committed
+4618:[gles] flip done
+4619:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4634:[renderer] dmabuf buffer committed
+4641:[gles] flip done
+4642:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4657:[renderer] dmabuf buffer committed
+4664:[gles] flip done
+4665:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4680:[renderer] dmabuf buffer committed
+4687:[gles] flip done
+4688:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4703:[renderer] dmabuf buffer committed
+4710:[gles] flip done
+4711:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4726:[renderer] dmabuf buffer committed
+4733:[gles] flip done
+4734:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4749:[renderer] dmabuf buffer committed
+4756:[gles] flip done
+4757:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4772:[renderer] dmabuf buffer committed
+4779:[gles] flip done
+4780:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4795:[renderer] dmabuf buffer committed
+4802:[gles] flip done
+4803:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4818:[renderer] dmabuf buffer committed
+4825:[gles] flip done
+4826:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4841:[renderer] dmabuf buffer committed
+4848:[gles] flip done
+4849:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4864:[renderer] dmabuf buffer committed
+4871:[gles] flip done
+4872:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4887:[renderer] dmabuf buffer committed
+4894:[gles] flip done
+4895:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4910:[renderer] dmabuf buffer committed
+4917:[gles] flip done
+4918:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4933:[renderer] dmabuf buffer committed
+4940:[gles] flip done
+4941:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4956:[renderer] dmabuf buffer committed
+4963:[gles] flip done
+4964:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+4979:[renderer] dmabuf buffer committed
+4986:[gles] flip done
+4987:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5002:[renderer] dmabuf buffer committed
+5009:[gles] flip done
+5010:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5025:[renderer] dmabuf buffer committed
+5032:[gles] flip done
+5033:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5048:[renderer] dmabuf buffer committed
+5055:[gles] flip done
+5056:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5071:[renderer] dmabuf buffer committed
+5078:[gles] flip done
+5079:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5094:[renderer] dmabuf buffer committed
+5101:[gles] flip done
+5102:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5117:[renderer] dmabuf buffer committed
+5124:[gles] flip done
+5125:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5140:[renderer] dmabuf buffer committed
+5147:[gles] flip done
+5148:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5163:[renderer] dmabuf buffer committed
+5170:[gles] flip done
+5171:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5186:[renderer] dmabuf buffer committed
+5193:[gles] flip done
+5194:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5209:[renderer] dmabuf buffer committed
+5216:[gles] flip done
+5217:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5232:[renderer] dmabuf buffer committed
+5239:[gles] flip done
+5240:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5255:[renderer] dmabuf buffer committed
+5262:[gles] flip done
+5263:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5278:[renderer] dmabuf buffer committed
+5285:[gles] flip done
+5286:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5301:[renderer] dmabuf buffer committed
+5308:[gles] flip done
+5309:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5324:[renderer] dmabuf buffer committed
+5331:[gles] flip done
+5332:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5347:[renderer] dmabuf buffer committed
+5354:[gles] flip done
+5355:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5370:[renderer] dmabuf buffer committed
+5377:[gles] flip done
+5378:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5393:[renderer] dmabuf buffer committed
+5400:[gles] flip done
+5401:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5416:[renderer] dmabuf buffer committed
+5423:[gles] flip done
+5424:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5439:[renderer] dmabuf buffer committed
+5446:[gles] flip done
+5447:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5462:[renderer] dmabuf buffer committed
+5469:[gles] flip done
+5470:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5485:[renderer] dmabuf buffer committed
+5492:[gles] flip done
+5493:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5508:[renderer] dmabuf buffer committed
+5515:[gles] flip done
+5516:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5531:[renderer] dmabuf buffer committed
+5538:[gles] flip done
+5539:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5554:[renderer] dmabuf buffer committed
+5561:[gles] flip done
+5562:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5577:[renderer] dmabuf buffer committed
+5584:[gles] flip done
+5585:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5600:[renderer] dmabuf buffer committed
+5607:[gles] flip done
+5608:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5623:[renderer] dmabuf buffer committed
+5630:[gles] flip done
+5631:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5646:[renderer] dmabuf buffer committed
+5653:[gles] flip done
+5654:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5669:[renderer] dmabuf buffer committed
+5676:[gles] flip done
+5677:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5692:[renderer] dmabuf buffer committed
+5699:[gles] flip done
+5700:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5715:[renderer] dmabuf buffer committed
+5722:[gles] flip done
+5723:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5738:[renderer] dmabuf buffer committed
+5745:[gles] flip done
+5746:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5761:[renderer] dmabuf buffer committed
+5768:[gles] flip done
+5769:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5784:[renderer] dmabuf buffer committed
+5791:[gles] flip done
+5792:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5807:[renderer] dmabuf buffer committed
+5814:[gles] flip done
+5815:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5830:[renderer] dmabuf buffer committed
+5837:[gles] flip done
+5838:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5853:[renderer] dmabuf buffer committed
+5860:[gles] flip done
+5861:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5876:[renderer] dmabuf buffer committed
+5883:[gles] flip done
+5884:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5899:[renderer] dmabuf buffer committed
+5906:[gles] flip done
+5907:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5922:[renderer] dmabuf buffer committed
+5929:[gles] flip done
+5930:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5945:[renderer] dmabuf buffer committed
+5952:[gles] flip done
+5953:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5968:[renderer] dmabuf buffer committed
+5975:[gles] flip done
+5976:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+5991:[renderer] dmabuf buffer committed
+5998:[gles] flip done
+5999:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6014:[renderer] dmabuf buffer committed
+6021:[gles] flip done
+6022:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6037:[renderer] dmabuf buffer committed
+6044:[gles] flip done
+6045:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6060:[renderer] dmabuf buffer committed
+6067:[gles] flip done
+6068:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6083:[renderer] dmabuf buffer committed
+6090:[gles] flip done
+6091:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6106:[renderer] dmabuf buffer committed
+6113:[gles] flip done
+6114:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6129:[renderer] dmabuf buffer committed
+6136:[gles] flip done
+6137:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6152:[renderer] dmabuf buffer committed
+6159:[gles] flip done
+6160:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6175:[renderer] dmabuf buffer committed
+6182:[gles] flip done
+6183:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6198:[renderer] dmabuf buffer committed
+6205:[gles] flip done
+6206:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6221:[renderer] dmabuf buffer committed
+6228:[gles] flip done
+6229:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6244:[renderer] dmabuf buffer committed
+6251:[gles] flip done
+6252:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6267:[renderer] dmabuf buffer committed
+6274:[gles] flip done
+6275:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6290:[renderer] dmabuf buffer committed
+6297:[gles] flip done
+6298:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6313:[renderer] dmabuf buffer committed
+6320:[gles] flip done
+6321:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6336:[renderer] dmabuf buffer committed
+6343:[gles] flip done
+6344:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6359:[renderer] dmabuf buffer committed
+6366:[gles] flip done
+6367:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6382:[renderer] dmabuf buffer committed
+6389:[gles] flip done
+6390:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6405:[renderer] dmabuf buffer committed
+6412:[gles] flip done
+6413:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6428:[renderer] dmabuf buffer committed
+6435:[gles] flip done
+6436:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6451:[renderer] dmabuf buffer committed
+6458:[gles] flip done
+6459:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6474:[renderer] dmabuf buffer committed
+6481:[gles] flip done
+6482:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6497:[renderer] dmabuf buffer committed
+6504:[gles] flip done
+6505:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6520:[renderer] dmabuf buffer committed
+6527:[gles] flip done
+6528:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6543:[renderer] dmabuf buffer committed
+6550:[gles] flip done
+6551:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6566:[renderer] dmabuf buffer committed
+6573:[gles] flip done
+6574:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6589:[renderer] dmabuf buffer committed
+6596:[gles] flip done
+6597:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6612:[renderer] dmabuf buffer committed
+6619:[gles] flip done
+6620:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6635:[renderer] dmabuf buffer committed
+6642:[gles] flip done
+6643:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6658:[renderer] dmabuf buffer committed
+6665:[gles] flip done
+6666:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6681:[renderer] dmabuf buffer committed
+6688:[gles] flip done
+6689:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6704:[renderer] dmabuf buffer committed
+6711:[gles] flip done
+6712:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6727:[renderer] dmabuf buffer committed
+6734:[gles] flip done
+6735:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6750:[renderer] dmabuf buffer committed
+6757:[gles] flip done
+6758:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6773:[renderer] dmabuf buffer committed
+6780:[gles] flip done
+6781:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6796:[renderer] dmabuf buffer committed
+6803:[gles] flip done
+6804:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6819:[renderer] dmabuf buffer committed
+6826:[gles] flip done
+6827:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6842:[renderer] dmabuf buffer committed
+6849:[gles] flip done
+6850:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6865:[renderer] dmabuf buffer committed
+6872:[gles] flip done
+6873:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6888:[renderer] dmabuf buffer committed
+6895:[gles] flip done
+6896:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6911:[renderer] dmabuf buffer committed
+6918:[gles] flip done
+6919:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6934:[renderer] dmabuf buffer committed
+6941:[gles] flip done
+6942:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6957:[renderer] dmabuf buffer committed
+6964:[gles] flip done
+6965:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+6980:[renderer] dmabuf buffer committed
+6987:[gles] flip done
+6988:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7003:[renderer] dmabuf buffer committed
+7010:[gles] flip done
+7011:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7026:[renderer] dmabuf buffer committed
+7033:[gles] flip done
+7034:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7049:[renderer] dmabuf buffer committed
+7056:[gles] flip done
+7057:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7072:[renderer] dmabuf buffer committed
+7079:[gles] flip done
+7080:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7095:[renderer] dmabuf buffer committed
+7102:[gles] flip done
+7103:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7118:[renderer] dmabuf buffer committed
+7125:[gles] flip done
+7126:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7141:[renderer] dmabuf buffer committed
+7148:[gles] flip done
+7149:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7164:[renderer] dmabuf buffer committed
+7171:[gles] flip done
+7172:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7187:[renderer] dmabuf buffer committed
+7194:[gles] flip done
+7195:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7210:[renderer] dmabuf buffer committed
+7217:[gles] flip done
+7218:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7233:[renderer] dmabuf buffer committed
+7240:[gles] flip done
+7241:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7256:[renderer] dmabuf buffer committed
+7263:[gles] flip done
+7264:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7279:[renderer] dmabuf buffer committed
+7286:[gles] flip done
+7287:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7302:[renderer] dmabuf buffer committed
+7309:[gles] flip done
+7310:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7325:[renderer] dmabuf buffer committed
+7332:[gles] flip done
+7333:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7348:[renderer] dmabuf buffer committed
+7355:[gles] flip done
+7356:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7371:[renderer] dmabuf buffer committed
+7378:[gles] flip done
+7379:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7394:[renderer] dmabuf buffer committed
+7401:[gles] flip done
+7402:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7417:[renderer] dmabuf buffer committed
+7424:[gles] flip done
+7425:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7440:[renderer] dmabuf buffer committed
+7447:[gles] flip done
+7448:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7463:[renderer] dmabuf buffer committed
+7470:[gles] flip done
+7471:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7486:[renderer] dmabuf buffer committed
+7493:[gles] flip done
+7494:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7509:[renderer] dmabuf buffer committed
+7516:[gles] flip done
+7517:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7532:[renderer] dmabuf buffer committed
+7539:[gles] flip done
+7540:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7555:[renderer] dmabuf buffer committed
+7562:[gles] flip done
+7563:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7578:[renderer] dmabuf buffer committed
+7585:[gles] flip done
+7586:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7601:[renderer] dmabuf buffer committed
+7608:[gles] flip done
+7609:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7624:[renderer] dmabuf buffer committed
+7631:[gles] flip done
+7632:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7647:[renderer] dmabuf buffer committed
+7654:[gles] flip done
+7655:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7670:[renderer] dmabuf buffer committed
+7677:[gles] flip done
+7678:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7693:[renderer] dmabuf buffer committed
+7700:[gles] flip done
+7701:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7716:[renderer] dmabuf buffer committed
+7723:[gles] flip done
+7724:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7739:[renderer] dmabuf buffer committed
+7746:[gles] flip done
+7747:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7762:[renderer] dmabuf buffer committed
+7769:[gles] flip done
+7770:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7785:[renderer] dmabuf buffer committed
+7792:[gles] flip done
+7793:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7808:[renderer] dmabuf buffer committed
+7815:[gles] flip done
+7816:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7831:[renderer] dmabuf buffer committed
+7838:[gles] flip done
+7839:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7854:[renderer] dmabuf buffer committed
+7861:[gles] flip done
+7862:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7877:[renderer] dmabuf buffer committed
+7884:[gles] flip done
+7885:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7900:[renderer] dmabuf buffer committed
+7907:[gles] flip done
+7908:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7923:[renderer] dmabuf buffer committed
+7930:[gles] flip done
+7931:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7946:[renderer] dmabuf buffer committed
+7953:[gles] flip done
+7954:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7969:[renderer] dmabuf buffer committed
+7976:[gles] flip done
+7977:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+7992:[renderer] dmabuf buffer committed
+7999:[gles] flip done
+8000:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8015:[renderer] dmabuf buffer committed
+8022:[gles] flip done
+8023:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8038:[renderer] dmabuf buffer committed
+8045:[gles] flip done
+8046:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8061:[renderer] dmabuf buffer committed
+8068:[gles] flip done
+8069:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8084:[renderer] dmabuf buffer committed
+8091:[gles] flip done
+8092:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8107:[renderer] dmabuf buffer committed
+8114:[gles] flip done
+8115:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8130:[renderer] dmabuf buffer committed
+8137:[gles] flip done
+8138:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8153:[renderer] dmabuf buffer committed
+8160:[gles] flip done
+8161:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8176:[renderer] dmabuf buffer committed
+8183:[gles] flip done
+8184:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8199:[renderer] dmabuf buffer committed
+8206:[gles] flip done
+8207:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8222:[renderer] dmabuf buffer committed
+8229:[gles] flip done
+8230:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8245:[renderer] dmabuf buffer committed
+8252:[gles] flip done
+8253:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8268:[renderer] dmabuf buffer committed
+8275:[gles] flip done
+8276:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8291:[renderer] dmabuf buffer committed
+8298:[gles] flip done
+8299:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8314:[renderer] dmabuf buffer committed
+8321:[gles] flip done
+8322:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8337:[renderer] dmabuf buffer committed
+8344:[gles] flip done
+8345:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8360:[renderer] dmabuf buffer committed
+8367:[gles] flip done
+8368:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8383:[renderer] dmabuf buffer committed
+8390:[gles] flip done
+8391:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8406:[renderer] dmabuf buffer committed
+8413:[gles] flip done
+8414:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8429:[renderer] dmabuf buffer committed
+8436:[gles] flip done
+8437:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8452:[renderer] dmabuf buffer committed
+8459:[gles] flip done
+8460:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8475:[renderer] dmabuf buffer committed
+8482:[gles] flip done
+8483:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8498:[renderer] dmabuf buffer committed
+8505:[gles] flip done
+8506:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8521:[renderer] dmabuf buffer committed
+8528:[gles] flip done
+8529:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8544:[renderer] dmabuf buffer committed
+8551:[gles] flip done
+8552:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8567:[renderer] dmabuf buffer committed
+8574:[gles] flip done
+8575:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8590:[renderer] dmabuf buffer committed
+8597:[gles] flip done
+8598:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8613:[renderer] dmabuf buffer committed
+8620:[gles] flip done
+8621:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8636:[renderer] dmabuf buffer committed
+8643:[gles] flip done
+8644:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8659:[renderer] dmabuf buffer committed
+8666:[gles] flip done
+8667:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8682:[renderer] dmabuf buffer committed
+8689:[gles] flip done
+8690:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8705:[renderer] dmabuf buffer committed
+8712:[gles] flip done
+8713:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8728:[renderer] dmabuf buffer committed
+8735:[gles] flip done
+8736:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8751:[renderer] dmabuf buffer committed
+8758:[gles] flip done
+8759:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8774:[renderer] dmabuf buffer committed
+8781:[gles] flip done
+8782:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8797:[renderer] dmabuf buffer committed
+8804:[gles] flip done
+8805:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8820:[renderer] dmabuf buffer committed
+8827:[gles] flip done
+8828:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8843:[renderer] dmabuf buffer committed
+8850:[gles] flip done
+8851:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8866:[renderer] dmabuf buffer committed
+8873:[gles] flip done
+8874:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8889:[renderer] dmabuf buffer committed
+8896:[gles] flip done
+8897:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8912:[renderer] dmabuf buffer committed
+8919:[gles] flip done
+8920:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8935:[renderer] dmabuf buffer committed
+8942:[gles] flip done
+8943:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8958:[renderer] dmabuf buffer committed
+8965:[gles] flip done
+8966:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+8981:[renderer] dmabuf buffer committed
+8988:[gles] flip done
+8989:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9004:[renderer] dmabuf buffer committed
+9011:[gles] flip done
+9012:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9027:[renderer] dmabuf buffer committed
+9034:[gles] flip done
+9035:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9050:[renderer] dmabuf buffer committed
+9057:[gles] flip done
+9058:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9073:[renderer] dmabuf buffer committed
+9080:[gles] flip done
+9081:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9096:[renderer] dmabuf buffer committed
+9103:[gles] flip done
+9104:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9119:[renderer] dmabuf buffer committed
+9126:[gles] flip done
+9127:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9142:[renderer] dmabuf buffer committed
+9149:[gles] flip done
+9150:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9165:[renderer] dmabuf buffer committed
+9172:[gles] flip done
+9173:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9188:[renderer] dmabuf buffer committed
+9195:[gles] flip done
+9196:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9211:[renderer] dmabuf buffer committed
+9218:[gles] flip done
+9219:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9234:[renderer] dmabuf buffer committed
+9241:[gles] flip done
+9242:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9257:[renderer] dmabuf buffer committed
+9264:[gles] flip done
+9265:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9280:[renderer] dmabuf buffer committed
+9287:[gles] flip done
+9288:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9303:[renderer] dmabuf buffer committed
+9310:[gles] flip done
+9311:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9326:[renderer] dmabuf buffer committed
+9333:[gles] flip done
+9334:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9349:[renderer] dmabuf buffer committed
+9356:[gles] flip done
+9357:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9372:[renderer] dmabuf buffer committed
+9379:[gles] flip done
+9380:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9395:[renderer] dmabuf buffer committed
+9402:[gles] flip done
+9403:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9418:[renderer] dmabuf buffer committed
+9425:[gles] flip done
+9426:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9441:[renderer] dmabuf buffer committed
+9448:[gles] flip done
+9449:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9464:[renderer] dmabuf buffer committed
+9471:[gles] flip done
+9472:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9487:[renderer] dmabuf buffer committed
+9494:[gles] flip done
+9495:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9510:[renderer] dmabuf buffer committed
+9517:[gles] flip done
+9518:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9533:[renderer] dmabuf buffer committed
+9540:[gles] flip done
+9541:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9556:[renderer] dmabuf buffer committed
+9563:[gles] flip done
+9564:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9579:[renderer] dmabuf buffer committed
+9586:[gles] flip done
+9587:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9602:[renderer] dmabuf buffer committed
+9609:[gles] flip done
+9610:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9625:[renderer] dmabuf buffer committed
+9632:[gles] flip done
+9633:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9648:[renderer] dmabuf buffer committed
+9655:[gles] flip done
+9656:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9671:[renderer] dmabuf buffer committed
+9678:[gles] flip done
+9679:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9694:[renderer] dmabuf buffer committed
+9701:[gles] flip done
+9702:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9717:[renderer] dmabuf buffer committed
+9724:[gles] flip done
+9725:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9740:[renderer] dmabuf buffer committed
+9747:[gles] flip done
+9748:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9763:[renderer] dmabuf buffer committed
+9770:[gles] flip done
+9771:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9786:[renderer] dmabuf buffer committed
+9793:[gles] flip done
+9794:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9809:[renderer] dmabuf buffer committed
+9816:[gles] flip done
+9817:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9832:[renderer] dmabuf buffer committed
+9839:[gles] flip done
+9840:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9855:[renderer] dmabuf buffer committed
+9862:[gles] flip done
+9863:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9878:[renderer] dmabuf buffer committed
+9885:[gles] flip done
+9886:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9901:[renderer] dmabuf buffer committed
+9908:[gles] flip done
+9909:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9924:[renderer] dmabuf buffer committed
+9931:[gles] flip done
+9932:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9947:[renderer] dmabuf buffer committed
+9954:[gles] flip done
+9955:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9970:[renderer] dmabuf buffer committed
+9977:[gles] flip done
+9978:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+9993:[renderer] dmabuf buffer committed
+10000:[gles] flip done
+10001:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10016:[renderer] dmabuf buffer committed
+10023:[gles] flip done
+10024:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10039:[renderer] dmabuf buffer committed
+10046:[gles] flip done
+10047:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10062:[renderer] dmabuf buffer committed
+10069:[gles] flip done
+10070:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10085:[renderer] dmabuf buffer committed
+10092:[gles] flip done
+10093:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10108:[renderer] dmabuf buffer committed
+10115:[gles] flip done
+10116:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10131:[renderer] dmabuf buffer committed
+10138:[gles] flip done
+10139:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10154:[renderer] dmabuf buffer committed
+10161:[gles] flip done
+10162:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10177:[renderer] dmabuf buffer committed
+10184:[gles] flip done
+10185:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10200:[renderer] dmabuf buffer committed
+10207:[gles] flip done
+10208:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10223:[renderer] dmabuf buffer committed
+10230:[gles] flip done
+10231:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10246:[renderer] dmabuf buffer committed
+10253:[gles] flip done
+10254:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10269:[renderer] dmabuf buffer committed
+10276:[gles] flip done
+10277:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10292:[renderer] dmabuf buffer committed
+10299:[gles] flip done
+10300:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10315:[renderer] dmabuf buffer committed
+10322:[gles] flip done
+10323:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10338:[renderer] dmabuf buffer committed
+10345:[gles] flip done
+10346:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10361:[renderer] dmabuf buffer committed
+10368:[gles] flip done
+10369:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10384:[renderer] dmabuf buffer committed
+10391:[gles] flip done
+10392:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10407:[renderer] dmabuf buffer committed
+10414:[gles] flip done
+10415:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10430:[renderer] dmabuf buffer committed
+10437:[gles] flip done
+10438:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10453:[renderer] dmabuf buffer committed
+10460:[gles] flip done
+10461:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10476:[renderer] dmabuf buffer committed
+10483:[gles] flip done
+10484:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10499:[renderer] dmabuf buffer committed
+10506:[gles] flip done
+10507:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10522:[renderer] dmabuf buffer committed
+10529:[gles] flip done
+10530:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10545:[renderer] dmabuf buffer committed
+10552:[gles] flip done
+10553:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10568:[renderer] dmabuf buffer committed
+10575:[gles] flip done
+10576:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10591:[renderer] dmabuf buffer committed
+10598:[gles] flip done
+10599:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10614:[renderer] dmabuf buffer committed
+10621:[gles] flip done
+10622:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10637:[renderer] dmabuf buffer committed
+10644:[gles] flip done
+10645:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10660:[renderer] dmabuf buffer committed
+10667:[gles] flip done
+10668:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10683:[renderer] dmabuf buffer committed
+10690:[gles] flip done
+10691:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10706:[renderer] dmabuf buffer committed
+10713:[gles] flip done
+10714:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10729:[renderer] dmabuf buffer committed
+10736:[gles] flip done
+10737:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10753:[renderer] dmabuf buffer committed
+10760:[gles] flip done
+10761:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10779:[renderer] dmabuf buffer committed
+10786:[gles] flip done
+10787:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10802:[renderer] dmabuf buffer committed
+10809:[gles] flip done
+10810:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10825:[renderer] dmabuf buffer committed
+10832:[gles] flip done
+10833:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10848:[renderer] dmabuf buffer committed
+10855:[gles] flip done
+10856:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10871:[renderer] dmabuf buffer committed
+10878:[gles] flip done
+10879:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10894:[renderer] dmabuf buffer committed
+10901:[gles] flip done
+10902:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10917:[renderer] dmabuf buffer committed
+10924:[gles] flip done
+10925:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10940:[renderer] dmabuf buffer committed
+10947:[gles] flip done
+10948:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10963:[renderer] dmabuf buffer committed
+10970:[gles] flip done
+10971:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+10986:[renderer] dmabuf buffer committed
+10993:[gles] flip done
+10994:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11009:[renderer] dmabuf buffer committed
+11016:[gles] flip done
+11017:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11032:[renderer] dmabuf buffer committed
+11039:[gles] flip done
+11040:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11055:[renderer] dmabuf buffer committed
+11062:[gles] flip done
+11063:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11078:[renderer] dmabuf buffer committed
+11085:[gles] flip done
+11086:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11101:[renderer] dmabuf buffer committed
+11108:[gles] flip done
+11109:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11124:[renderer] dmabuf buffer committed
+11131:[gles] flip done
+11132:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11147:[renderer] dmabuf buffer committed
+11154:[gles] flip done
+11155:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11170:[renderer] dmabuf buffer committed
+11177:[gles] flip done
+11178:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11193:[renderer] dmabuf buffer committed
+11200:[gles] flip done
+11201:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11216:[renderer] dmabuf buffer committed
+11223:[gles] flip done
+11224:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11239:[renderer] dmabuf buffer committed
+11246:[gles] flip done
+11247:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11262:[renderer] dmabuf buffer committed
+11269:[gles] flip done
+11270:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11285:[renderer] dmabuf buffer committed
+11292:[gles] flip done
+11293:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11308:[renderer] dmabuf buffer committed
+11315:[gles] flip done
+11316:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11331:[renderer] dmabuf buffer committed
+11338:[gles] flip done
+11339:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11354:[renderer] dmabuf buffer committed
+11361:[gles] flip done
+11362:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11377:[renderer] dmabuf buffer committed
+11384:[gles] flip done
+11385:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11400:[renderer] dmabuf buffer committed
+11407:[gles] flip done
+11408:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11423:[renderer] dmabuf buffer committed
+11430:[gles] flip done
+11431:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11446:[renderer] dmabuf buffer committed
+11453:[gles] flip done
+11454:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11469:[renderer] dmabuf buffer committed
+11476:[gles] flip done
+11477:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11492:[renderer] dmabuf buffer committed
+11499:[gles] flip done
+11500:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11515:[renderer] dmabuf buffer committed
+11522:[gles] flip done
+11523:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11538:[renderer] dmabuf buffer committed
+11545:[gles] flip done
+11546:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11561:[renderer] dmabuf buffer committed
+11568:[gles] flip done
+11569:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11584:[renderer] dmabuf buffer committed
+11591:[gles] flip done
+11592:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11607:[renderer] dmabuf buffer committed
+11614:[gles] flip done
+11615:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11630:[renderer] dmabuf buffer committed
+11637:[gles] flip done
+11638:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11653:[renderer] dmabuf buffer committed
+11660:[gles] flip done
+11661:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11676:[renderer] dmabuf buffer committed
+11683:[gles] flip done
+11684:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11699:[renderer] dmabuf buffer committed
+11706:[gles] flip done
+11707:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11722:[renderer] dmabuf buffer committed
+11729:[gles] flip done
+11730:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11745:[renderer] dmabuf buffer committed
+11752:[gles] flip done
+11753:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11768:[renderer] dmabuf buffer committed
+11775:[gles] flip done
+11776:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11791:[renderer] dmabuf buffer committed
+11798:[gles] flip done
+11799:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11814:[renderer] dmabuf buffer committed
+11821:[gles] flip done
+11822:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11837:[renderer] dmabuf buffer committed
+11844:[gles] flip done
+11845:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11860:[renderer] dmabuf buffer committed
+11867:[gles] flip done
+11868:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11883:[renderer] dmabuf buffer committed
+11890:[gles] flip done
+11891:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11906:[renderer] dmabuf buffer committed
+11913:[gles] flip done
+11914:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11929:[renderer] dmabuf buffer committed
+11936:[gles] flip done
+11937:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11952:[renderer] dmabuf buffer committed
+11959:[gles] flip done
+11960:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11975:[renderer] dmabuf buffer committed
+11982:[gles] flip done
+11983:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+11998:[renderer] dmabuf buffer committed
+12005:[gles] flip done
+12006:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12021:[renderer] dmabuf buffer committed
+12028:[gles] flip done
+12029:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12044:[renderer] dmabuf buffer committed
+12051:[gles] flip done
+12052:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12067:[renderer] dmabuf buffer committed
+12074:[gles] flip done
+12075:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12090:[renderer] dmabuf buffer committed
+12097:[gles] flip done
+12098:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12113:[renderer] dmabuf buffer committed
+12120:[gles] flip done
+12121:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12136:[renderer] dmabuf buffer committed
+12143:[gles] flip done
+12144:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12159:[renderer] dmabuf buffer committed
+12166:[gles] flip done
+12167:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12182:[renderer] dmabuf buffer committed
+12189:[gles] flip done
+12190:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12205:[renderer] dmabuf buffer committed
+12212:[gles] flip done
+12213:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12228:[renderer] dmabuf buffer committed
+12235:[gles] flip done
+12236:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12251:[renderer] dmabuf buffer committed
+12258:[gles] flip done
+12259:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12274:[renderer] dmabuf buffer committed
+12281:[gles] flip done
+12282:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12297:[renderer] dmabuf buffer committed
+12304:[gles] flip done
+12305:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12320:[renderer] dmabuf buffer committed
+12327:[gles] flip done
+12328:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12343:[renderer] dmabuf buffer committed
+12350:[gles] flip done
+12351:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12366:[renderer] dmabuf buffer committed
+12373:[gles] flip done
+12374:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12389:[renderer] dmabuf buffer committed
+12396:[gles] flip done
+12397:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12412:[renderer] dmabuf buffer committed
+12419:[gles] flip done
+12420:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12435:[renderer] dmabuf buffer committed
+12442:[gles] flip done
+12443:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12458:[renderer] dmabuf buffer committed
+12465:[gles] flip done
+12466:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12481:[renderer] dmabuf buffer committed
+12488:[gles] flip done
+12489:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12504:[renderer] dmabuf buffer committed
+12511:[gles] flip done
+12512:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12527:[renderer] dmabuf buffer committed
+12534:[gles] flip done
+12535:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12550:[renderer] dmabuf buffer committed
+12557:[gles] flip done
+12558:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12573:[renderer] dmabuf buffer committed
+12580:[gles] flip done
+12581:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12596:[renderer] dmabuf buffer committed
+12603:[gles] flip done
+12604:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12619:[renderer] dmabuf buffer committed
+12626:[gles] flip done
+12627:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12642:[renderer] dmabuf buffer committed
+12649:[gles] flip done
+12650:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12665:[renderer] dmabuf buffer committed
+12672:[gles] flip done
+12673:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12688:[renderer] dmabuf buffer committed
+12695:[gles] flip done
+12696:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12711:[renderer] dmabuf buffer committed
+12718:[gles] flip done
+12719:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12734:[renderer] dmabuf buffer committed
+12741:[gles] flip done
+12742:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12757:[renderer] dmabuf buffer committed
+12764:[gles] flip done
+12765:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12780:[renderer] dmabuf buffer committed
+12787:[gles] flip done
+12788:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12803:[renderer] dmabuf buffer committed
+12810:[gles] flip done
+12811:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12826:[renderer] dmabuf buffer committed
+12833:[gles] flip done
+12834:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12849:[renderer] dmabuf buffer committed
+12856:[gles] flip done
+12857:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12872:[renderer] dmabuf buffer committed
+12879:[gles] flip done
+12880:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12895:[renderer] dmabuf buffer committed
+12902:[gles] flip done
+12903:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12918:[renderer] dmabuf buffer committed
+12925:[gles] flip done
+12926:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12941:[renderer] dmabuf buffer committed
+12948:[gles] flip done
+12949:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12964:[renderer] dmabuf buffer committed
+12971:[gles] flip done
+12972:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+12987:[renderer] dmabuf buffer committed
+12994:[gles] flip done
+12995:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13010:[renderer] dmabuf buffer committed
+13017:[gles] flip done
+13018:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13033:[renderer] dmabuf buffer committed
+13040:[gles] flip done
+13041:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13056:[renderer] dmabuf buffer committed
+13063:[gles] flip done
+13064:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13079:[renderer] dmabuf buffer committed
+13086:[gles] flip done
+13087:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13102:[renderer] dmabuf buffer committed
+13109:[gles] flip done
+13110:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13125:[renderer] dmabuf buffer committed
+13132:[gles] flip done
+13133:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13148:[renderer] dmabuf buffer committed
+13155:[gles] flip done
+13156:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13171:[renderer] dmabuf buffer committed
+13178:[gles] flip done
+13179:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13194:[renderer] dmabuf buffer committed
+13201:[gles] flip done
+13202:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13217:[renderer] dmabuf buffer committed
+13224:[gles] flip done
+13225:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13240:[renderer] dmabuf buffer committed
+13247:[gles] flip done
+13248:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13263:[renderer] dmabuf buffer committed
+13270:[gles] flip done
+13271:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13286:[renderer] dmabuf buffer committed
+13293:[gles] flip done
+13294:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13309:[renderer] dmabuf buffer committed
+13316:[gles] flip done
+13317:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13332:[renderer] dmabuf buffer committed
+13339:[gles] flip done
+13340:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13355:[renderer] dmabuf buffer committed
+13362:[gles] flip done
+13363:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13378:[renderer] dmabuf buffer committed
+13385:[gles] flip done
+13386:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13401:[renderer] dmabuf buffer committed
+13408:[gles] flip done
+13409:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13424:[renderer] dmabuf buffer committed
+13431:[gles] flip done
+13432:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13447:[renderer] dmabuf buffer committed
+13454:[gles] flip done
+13455:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13470:[renderer] dmabuf buffer committed
+13477:[gles] flip done
+13478:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13493:[renderer] dmabuf buffer committed
+13500:[gles] flip done
+13501:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13516:[renderer] dmabuf buffer committed
+13523:[gles] flip done
+13524:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13539:[renderer] dmabuf buffer committed
+13546:[gles] flip done
+13547:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13562:[renderer] dmabuf buffer committed
+13569:[gles] flip done
+13570:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13585:[renderer] dmabuf buffer committed
+13592:[gles] flip done
+13593:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13608:[renderer] dmabuf buffer committed
+13615:[gles] flip done
+13616:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13631:[renderer] dmabuf buffer committed
+13638:[gles] flip done
+13639:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13654:[renderer] dmabuf buffer committed
+13661:[gles] flip done
+13662:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13677:[renderer] dmabuf buffer committed
+13684:[gles] flip done
+13685:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13700:[renderer] dmabuf buffer committed
+13707:[gles] flip done
+13708:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13723:[renderer] dmabuf buffer committed
+13730:[gles] flip done
+13731:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13746:[renderer] dmabuf buffer committed
+13753:[gles] flip done
+13754:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13769:[renderer] dmabuf buffer committed
+13776:[gles] flip done
+13777:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13792:[renderer] dmabuf buffer committed
+13799:[gles] flip done
+13800:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13815:[renderer] dmabuf buffer committed
+13822:[gles] flip done
+13823:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13838:[renderer] dmabuf buffer committed
+13845:[gles] flip done
+13846:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13861:[renderer] dmabuf buffer committed
+13868:[gles] flip done
+13869:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13884:[renderer] dmabuf buffer committed
+13891:[gles] flip done
+13892:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13907:[renderer] dmabuf buffer committed
+13914:[gles] flip done
+13915:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13930:[renderer] dmabuf buffer committed
+13937:[gles] flip done
+13938:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13953:[renderer] dmabuf buffer committed
+13960:[gles] flip done
+13961:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13976:[renderer] dmabuf buffer committed
+13983:[gles] flip done
+13984:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+13999:[renderer] dmabuf buffer committed
+14006:[gles] flip done
+14007:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14022:[renderer] dmabuf buffer committed
+14029:[gles] flip done
+14030:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14045:[renderer] dmabuf buffer committed
+14052:[gles] flip done
+14053:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14068:[renderer] dmabuf buffer committed
+14075:[gles] flip done
+14076:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14091:[renderer] dmabuf buffer committed
+14098:[gles] flip done
+14099:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14114:[renderer] dmabuf buffer committed
+14121:[gles] flip done
+14122:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14137:[renderer] dmabuf buffer committed
+14144:[gles] flip done
+14145:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14160:[renderer] dmabuf buffer committed
+14167:[gles] flip done
+14168:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14183:[renderer] dmabuf buffer committed
+14190:[gles] flip done
+14191:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14206:[renderer] dmabuf buffer committed
+14213:[gles] flip done
+14214:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14229:[renderer] dmabuf buffer committed
+14236:[gles] flip done
+14237:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14252:[renderer] dmabuf buffer committed
+14259:[gles] flip done
+14260:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14275:[renderer] dmabuf buffer committed
+14282:[gles] flip done
+14283:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14298:[renderer] dmabuf buffer committed
+14305:[gles] flip done
+14306:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14321:[renderer] dmabuf buffer committed
+14328:[gles] flip done
+14329:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14344:[renderer] dmabuf buffer committed
+14351:[gles] flip done
+14352:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14367:[renderer] dmabuf buffer committed
+14374:[gles] flip done
+14375:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14390:[renderer] dmabuf buffer committed
+14397:[gles] flip done
+14398:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14413:[renderer] dmabuf buffer committed
+14420:[gles] flip done
+14421:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14436:[renderer] dmabuf buffer committed
+14443:[gles] flip done
+14444:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14459:[renderer] dmabuf buffer committed
+14466:[gles] flip done
+14467:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14482:[renderer] dmabuf buffer committed
+14489:[gles] flip done
+14490:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14505:[renderer] dmabuf buffer committed
+14512:[gles] flip done
+14513:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14528:[renderer] dmabuf buffer committed
+14535:[gles] flip done
+14536:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14551:[renderer] dmabuf buffer committed
+14558:[gles] flip done
+14559:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14574:[renderer] dmabuf buffer committed
+14581:[gles] flip done
+14582:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14597:[renderer] dmabuf buffer committed
+14604:[gles] flip done
+14605:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14620:[renderer] dmabuf buffer committed
+14627:[gles] flip done
+14628:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14643:[renderer] dmabuf buffer committed
+14650:[gles] flip done
+14651:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14666:[renderer] dmabuf buffer committed
+14673:[gles] flip done
+14674:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14689:[renderer] dmabuf buffer committed
+14696:[gles] flip done
+14697:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14712:[renderer] dmabuf buffer committed
+14719:[gles] flip done
+14720:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14735:[renderer] dmabuf buffer committed
+14742:[gles] flip done
+14743:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14758:[renderer] dmabuf buffer committed
+14765:[gles] flip done
+14766:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14781:[renderer] dmabuf buffer committed
+14788:[gles] flip done
+14789:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14804:[renderer] dmabuf buffer committed
+14811:[gles] flip done
+14812:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14827:[renderer] dmabuf buffer committed
+14834:[gles] flip done
+14835:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14850:[renderer] dmabuf buffer committed
+14857:[gles] flip done
+14858:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14873:[renderer] dmabuf buffer committed
+14880:[gles] flip done
+14881:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14896:[renderer] dmabuf buffer committed
+14903:[gles] flip done
+14904:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14919:[renderer] dmabuf buffer committed
+14926:[gles] flip done
+14927:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14942:[renderer] dmabuf buffer committed
+14949:[gles] flip done
+14950:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14965:[renderer] dmabuf buffer committed
+14972:[gles] flip done
+14973:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+14988:[renderer] dmabuf buffer committed
+14995:[gles] flip done
+14996:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15011:[renderer] dmabuf buffer committed
+15018:[gles] flip done
+15019:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15034:[renderer] dmabuf buffer committed
+15041:[gles] flip done
+15042:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15057:[renderer] dmabuf buffer committed
+15064:[gles] flip done
+15065:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15080:[renderer] dmabuf buffer committed
+15087:[gles] flip done
+15088:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15103:[renderer] dmabuf buffer committed
+15110:[gles] flip done
+15111:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15126:[renderer] dmabuf buffer committed
+15133:[gles] flip done
+15134:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15149:[renderer] dmabuf buffer committed
+15156:[gles] flip done
+15157:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15172:[renderer] dmabuf buffer committed
+15179:[gles] flip done
+15180:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15195:[renderer] dmabuf buffer committed
+15202:[gles] flip done
+15203:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15218:[renderer] dmabuf buffer committed
+15225:[gles] flip done
+15226:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15241:[renderer] dmabuf buffer committed
+15248:[gles] flip done
+15249:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15264:[renderer] dmabuf buffer committed
+15271:[gles] flip done
+15272:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15287:[renderer] dmabuf buffer committed
+15294:[gles] flip done
+15295:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15310:[renderer] dmabuf buffer committed
+15317:[gles] flip done
+15318:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15333:[renderer] dmabuf buffer committed
+15340:[gles] flip done
+15341:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15356:[renderer] dmabuf buffer committed
+15363:[gles] flip done
+15364:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15379:[renderer] dmabuf buffer committed
+15386:[gles] flip done
+15387:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15402:[renderer] dmabuf buffer committed
+15409:[gles] flip done
+15410:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15425:[renderer] dmabuf buffer committed
+15432:[gles] flip done
+15433:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15448:[renderer] dmabuf buffer committed
+15455:[gles] flip done
+15456:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15471:[renderer] dmabuf buffer committed
+15478:[gles] flip done
+15479:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15494:[renderer] dmabuf buffer committed
+15501:[gles] flip done
+15502:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15517:[renderer] dmabuf buffer committed
+15524:[gles] flip done
+15525:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15540:[renderer] dmabuf buffer committed
+15547:[gles] flip done
+15548:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15563:[renderer] dmabuf buffer committed
+15570:[gles] flip done
+15571:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15586:[renderer] dmabuf buffer committed
+15593:[gles] flip done
+15594:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15609:[renderer] dmabuf buffer committed
+15616:[gles] flip done
+15617:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15632:[renderer] dmabuf buffer committed
+15639:[gles] flip done
+15640:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15655:[renderer] dmabuf buffer committed
+15662:[gles] flip done
+15663:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15678:[renderer] dmabuf buffer committed
+15685:[gles] flip done
+15686:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15701:[renderer] dmabuf buffer committed
+15708:[gles] flip done
+15709:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15724:[renderer] dmabuf buffer committed
+15731:[gles] flip done
+15732:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15747:[renderer] dmabuf buffer committed
+15754:[gles] flip done
+15755:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15770:[renderer] dmabuf buffer committed
+15777:[gles] flip done
+15778:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15793:[renderer] dmabuf buffer committed
+15800:[gles] flip done
+15801:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15816:[renderer] dmabuf buffer committed
+15823:[gles] flip done
+15824:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15839:[renderer] dmabuf buffer committed
+15846:[gles] flip done
+15847:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15862:[renderer] dmabuf buffer committed
+15869:[gles] flip done
+15870:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15885:[renderer] dmabuf buffer committed
+15892:[gles] flip done
+15893:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15908:[renderer] dmabuf buffer committed
+15915:[gles] flip done
+15916:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15931:[renderer] dmabuf buffer committed
+15938:[gles] flip done
+15939:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15954:[renderer] dmabuf buffer committed
+15961:[gles] flip done
+15962:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+15977:[renderer] dmabuf buffer committed
+15984:[gles] flip done
+15985:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16000:[renderer] dmabuf buffer committed
+16007:[gles] flip done
+16008:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16023:[renderer] dmabuf buffer committed
+16030:[gles] flip done
+16031:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16046:[renderer] dmabuf buffer committed
+16053:[gles] flip done
+16054:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16069:[renderer] dmabuf buffer committed
+16076:[gles] flip done
+16077:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16092:[renderer] dmabuf buffer committed
+16099:[gles] flip done
+16100:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16115:[renderer] dmabuf buffer committed
+16122:[gles] flip done
+16123:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16138:[renderer] dmabuf buffer committed
+16145:[gles] flip done
+16146:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16161:[renderer] dmabuf buffer committed
+16168:[gles] flip done
+16169:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16184:[renderer] dmabuf buffer committed
+16191:[gles] flip done
+16192:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16207:[renderer] dmabuf buffer committed
+16214:[gles] flip done
+16215:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16230:[renderer] dmabuf buffer committed
+16237:[gles] flip done
+16238:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16253:[renderer] dmabuf buffer committed
+16260:[gles] flip done
+16261:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16276:[renderer] dmabuf buffer committed
+16283:[gles] flip done
+16284:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16299:[renderer] dmabuf buffer committed
+16306:[gles] flip done
+16307:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16322:[renderer] dmabuf buffer committed
+16329:[gles] flip done
+16330:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16345:[renderer] dmabuf buffer committed
+16352:[gles] flip done
+16353:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16368:[renderer] dmabuf buffer committed
+16375:[gles] flip done
+16376:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16391:[renderer] dmabuf buffer committed
+16398:[gles] flip done
+16399:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16414:[renderer] dmabuf buffer committed
+16421:[gles] flip done
+16422:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16437:[renderer] dmabuf buffer committed
+16444:[gles] flip done
+16445:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16460:[renderer] dmabuf buffer committed
+16467:[gles] flip done
+16468:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16483:[renderer] dmabuf buffer committed
+16490:[gles] flip done
+16491:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16506:[renderer] dmabuf buffer committed
+16513:[gles] flip done
+16514:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16529:[renderer] dmabuf buffer committed
+16536:[gles] flip done
+16537:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16552:[renderer] dmabuf buffer committed
+16559:[gles] flip done
+16560:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16575:[renderer] dmabuf buffer committed
+16582:[gles] flip done
+16583:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16598:[renderer] dmabuf buffer committed
+16605:[gles] flip done
+16606:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16621:[renderer] dmabuf buffer committed
+16628:[gles] flip done
+16629:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16644:[renderer] dmabuf buffer committed
+16651:[gles] flip done
+16652:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16667:[renderer] dmabuf buffer committed
+16674:[gles] flip done
+16675:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16690:[renderer] dmabuf buffer committed
+16697:[gles] flip done
+16698:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16713:[renderer] dmabuf buffer committed
+16720:[gles] flip done
+16721:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16736:[renderer] dmabuf buffer committed
+16743:[gles] flip done
+16744:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16759:[renderer] dmabuf buffer committed
+16766:[gles] flip done
+16767:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16782:[renderer] dmabuf buffer committed
+16789:[gles] flip done
+16790:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16805:[renderer] dmabuf buffer committed
+16812:[gles] flip done
+16813:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16828:[renderer] dmabuf buffer committed
+16835:[gles] flip done
+16836:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16851:[renderer] dmabuf buffer committed
+16858:[gles] flip done
+16859:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16874:[renderer] dmabuf buffer committed
+16881:[gles] flip done
+16882:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16897:[renderer] dmabuf buffer committed
+16904:[gles] flip done
+16905:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16920:[renderer] dmabuf buffer committed
+16927:[gles] flip done
+16928:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16943:[renderer] dmabuf buffer committed
+16950:[gles] flip done
+16951:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16966:[renderer] dmabuf buffer committed
+16973:[gles] flip done
+16974:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+16989:[renderer] dmabuf buffer committed
+16996:[gles] flip done
+16997:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17012:[renderer] dmabuf buffer committed
+17019:[gles] flip done
+17020:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17035:[renderer] dmabuf buffer committed
+17042:[gles] flip done
+17043:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17058:[renderer] dmabuf buffer committed
+17065:[gles] flip done
+17066:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17081:[renderer] dmabuf buffer committed
+17088:[gles] flip done
+17089:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17104:[renderer] dmabuf buffer committed
+17111:[gles] flip done
+17112:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17127:[renderer] dmabuf buffer committed
+17134:[gles] flip done
+17135:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17150:[renderer] dmabuf buffer committed
+17157:[gles] flip done
+17158:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17173:[renderer] dmabuf buffer committed
+17180:[gles] flip done
+17181:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17196:[renderer] dmabuf buffer committed
+17203:[gles] flip done
+17204:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17219:[renderer] dmabuf buffer committed
+17226:[gles] flip done
+17227:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17242:[renderer] dmabuf buffer committed
+17249:[gles] flip done
+17250:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17265:[renderer] dmabuf buffer committed
+17272:[gles] flip done
+17273:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17288:[renderer] dmabuf buffer committed
+17295:[gles] flip done
+17296:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17311:[renderer] dmabuf buffer committed
+17318:[gles] flip done
+17319:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17334:[renderer] dmabuf buffer committed
+17341:[gles] flip done
+17342:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17357:[renderer] dmabuf buffer committed
+17364:[gles] flip done
+17365:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17380:[renderer] dmabuf buffer committed
+17387:[gles] flip done
+17388:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17403:[renderer] dmabuf buffer committed
+17410:[gles] flip done
+17411:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17426:[renderer] dmabuf buffer committed
+17433:[gles] flip done
+17434:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17449:[renderer] dmabuf buffer committed
+17456:[gles] flip done
+17457:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17472:[renderer] dmabuf buffer committed
+17479:[gles] flip done
+17480:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17495:[renderer] dmabuf buffer committed
+17502:[gles] flip done
+17503:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17518:[renderer] dmabuf buffer committed
+17525:[gles] flip done
+17526:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17541:[renderer] dmabuf buffer committed
+17548:[gles] flip done
+17549:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17564:[renderer] dmabuf buffer committed
+17571:[gles] flip done
+17572:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17587:[renderer] dmabuf buffer committed
+17594:[gles] flip done
+17595:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17610:[renderer] dmabuf buffer committed
+17617:[gles] flip done
+17618:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17633:[renderer] dmabuf buffer committed
+17640:[gles] flip done
+17641:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17656:[renderer] dmabuf buffer committed
+17663:[gles] flip done
+17664:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17679:[renderer] dmabuf buffer committed
+17686:[gles] flip done
+17687:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17702:[renderer] dmabuf buffer committed
+17709:[gles] flip done
+17710:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17725:[renderer] dmabuf buffer committed
+17732:[gles] flip done
+17733:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17748:[renderer] dmabuf buffer committed
+17755:[gles] flip done
+17756:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17771:[renderer] dmabuf buffer committed
+17778:[gles] flip done
+17779:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17794:[renderer] dmabuf buffer committed
+17801:[gles] flip done
+17802:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17817:[renderer] dmabuf buffer committed
+17824:[gles] flip done
+17825:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17840:[renderer] dmabuf buffer committed
+17847:[gles] flip done
+17848:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17863:[renderer] dmabuf buffer committed
+17870:[gles] flip done
+17871:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17886:[renderer] dmabuf buffer committed
+17893:[gles] flip done
+17894:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17909:[renderer] dmabuf buffer committed
+17916:[gles] flip done
+17917:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17932:[renderer] dmabuf buffer committed
+17939:[gles] flip done
+17940:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17955:[renderer] dmabuf buffer committed
+17962:[gles] flip done
+17963:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+17978:[renderer] dmabuf buffer committed
+17985:[gles] flip done
+17986:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18001:[renderer] dmabuf buffer committed
+18008:[gles] flip done
+18009:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18024:[renderer] dmabuf buffer committed
+18031:[gles] flip done
+18032:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18047:[renderer] dmabuf buffer committed
+18054:[gles] flip done
+18055:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18070:[renderer] dmabuf buffer committed
+18077:[gles] flip done
+18078:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18093:[renderer] dmabuf buffer committed
+18100:[gles] flip done
+18101:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18116:[renderer] dmabuf buffer committed
+18123:[gles] flip done
+18124:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18139:[renderer] dmabuf buffer committed
+18146:[gles] flip done
+18147:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18162:[renderer] dmabuf buffer committed
+18169:[gles] flip done
+18170:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18185:[renderer] dmabuf buffer committed
+18192:[gles] flip done
+18193:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18208:[renderer] dmabuf buffer committed
+18215:[gles] flip done
+18216:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18231:[renderer] dmabuf buffer committed
+18238:[gles] flip done
+18239:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18254:[renderer] dmabuf buffer committed
+18261:[gles] flip done
+18262:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18277:[renderer] dmabuf buffer committed
+18284:[gles] flip done
+18285:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18300:[renderer] dmabuf buffer committed
+18307:[gles] flip done
+18308:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18323:[renderer] dmabuf buffer committed
+18330:[gles] flip done
+18331:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18346:[renderer] dmabuf buffer committed
+18353:[gles] flip done
+18354:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18369:[renderer] dmabuf buffer committed
+18376:[gles] flip done
+18377:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18392:[renderer] dmabuf buffer committed
+18399:[gles] flip done
+18400:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18415:[renderer] dmabuf buffer committed
+18422:[gles] flip done
+18423:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18438:[renderer] dmabuf buffer committed
+18445:[gles] flip done
+18446:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18461:[renderer] dmabuf buffer committed
+18468:[gles] flip done
+18469:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18484:[renderer] dmabuf buffer committed
+18491:[gles] flip done
+18492:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18507:[renderer] dmabuf buffer committed
+18514:[gles] flip done
+18515:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18530:[renderer] dmabuf buffer committed
+18537:[gles] flip done
+18538:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18553:[renderer] dmabuf buffer committed
+18560:[gles] flip done
+18561:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18576:[renderer] dmabuf buffer committed
+18583:[gles] flip done
+18584:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18599:[renderer] dmabuf buffer committed
+18606:[gles] flip done
+18607:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18622:[renderer] dmabuf buffer committed
+18629:[gles] flip done
+18630:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18645:[renderer] dmabuf buffer committed
+18652:[gles] flip done
+18653:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18668:[renderer] dmabuf buffer committed
+18675:[gles] flip done
+18676:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18691:[renderer] dmabuf buffer committed
+18698:[gles] flip done
+18699:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18714:[renderer] dmabuf buffer committed
+18721:[gles] flip done
+18722:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18737:[renderer] dmabuf buffer committed
+18744:[gles] flip done
+18745:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18760:[renderer] dmabuf buffer committed
+18767:[gles] flip done
+18768:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18783:[renderer] dmabuf buffer committed
+18790:[gles] flip done
+18791:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18806:[renderer] dmabuf buffer committed
+18813:[gles] flip done
+18814:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18829:[renderer] dmabuf buffer committed
+18836:[gles] flip done
+18837:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18852:[renderer] dmabuf buffer committed
+18859:[gles] flip done
+18860:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18875:[renderer] dmabuf buffer committed
+18882:[gles] flip done
+18883:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18898:[renderer] dmabuf buffer committed
+18905:[gles] flip done
+18906:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18921:[renderer] dmabuf buffer committed
+18928:[gles] flip done
+18929:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18944:[renderer] dmabuf buffer committed
+18951:[gles] flip done
+18952:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18967:[renderer] dmabuf buffer committed
+18974:[gles] flip done
+18975:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+18990:[renderer] dmabuf buffer committed
+18997:[gles] flip done
+18998:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19013:[renderer] dmabuf buffer committed
+19020:[gles] flip done
+19021:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19036:[renderer] dmabuf buffer committed
+19043:[gles] flip done
+19044:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19059:[renderer] dmabuf buffer committed
+19066:[gles] flip done
+19067:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19082:[renderer] dmabuf buffer committed
+19089:[gles] flip done
+19090:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19105:[renderer] dmabuf buffer committed
+19112:[gles] flip done
+19113:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19128:[renderer] dmabuf buffer committed
+19135:[gles] flip done
+19136:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19151:[renderer] dmabuf buffer committed
+19158:[gles] flip done
+19159:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19174:[renderer] dmabuf buffer committed
+19181:[gles] flip done
+19182:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19197:[renderer] dmabuf buffer committed
+19204:[gles] flip done
+19205:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19220:[renderer] dmabuf buffer committed
+19227:[gles] flip done
+19228:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19243:[renderer] dmabuf buffer committed
+19250:[gles] flip done
+19251:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19266:[renderer] dmabuf buffer committed
+19273:[gles] flip done
+19274:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19289:[renderer] dmabuf buffer committed
+19296:[gles] flip done
+19297:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19312:[renderer] dmabuf buffer committed
+19319:[gles] flip done
+19320:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19335:[renderer] dmabuf buffer committed
+19342:[gles] flip done
+19343:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19358:[renderer] dmabuf buffer committed
+19365:[gles] flip done
+19366:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19381:[renderer] dmabuf buffer committed
+19388:[gles] flip done
+19389:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19404:[renderer] dmabuf buffer committed
+19411:[gles] flip done
+19412:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19427:[renderer] dmabuf buffer committed
+19434:[gles] flip done
+19435:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19450:[renderer] dmabuf buffer committed
+19457:[gles] flip done
+19458:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19473:[renderer] dmabuf buffer committed
+19480:[gles] flip done
+19481:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19496:[renderer] dmabuf buffer committed
+19503:[gles] flip done
+19504:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19519:[renderer] dmabuf buffer committed
+19526:[gles] flip done
+19527:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19542:[renderer] dmabuf buffer committed
+19549:[gles] flip done
+19550:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19565:[renderer] dmabuf buffer committed
+19572:[gles] flip done
+19573:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19588:[renderer] dmabuf buffer committed
+19595:[gles] flip done
+19596:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19611:[renderer] dmabuf buffer committed
+19618:[gles] flip done
+19619:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19634:[renderer] dmabuf buffer committed
+19641:[gles] flip done
+19642:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19657:[renderer] dmabuf buffer committed
+19664:[gles] flip done
+19665:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19680:[renderer] dmabuf buffer committed
+19687:[gles] flip done
+19688:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19703:[renderer] dmabuf buffer committed
+19710:[gles] flip done
+19711:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19726:[renderer] dmabuf buffer committed
+19733:[gles] flip done
+19734:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19749:[renderer] dmabuf buffer committed
+19756:[gles] flip done
+19757:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19772:[renderer] dmabuf buffer committed
+19779:[gles] flip done
+19780:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19795:[renderer] dmabuf buffer committed
+19802:[gles] flip done
+19803:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19818:[renderer] dmabuf buffer committed
+19825:[gles] flip done
+19826:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19841:[renderer] dmabuf buffer committed
+19848:[gles] flip done
+19849:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19864:[renderer] dmabuf buffer committed
+19871:[gles] flip done
+19872:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19887:[renderer] dmabuf buffer committed
+19894:[gles] flip done
+19895:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19910:[renderer] dmabuf buffer committed
+19917:[gles] flip done
+19918:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19933:[renderer] dmabuf buffer committed
+19940:[gles] flip done
+19941:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19956:[renderer] dmabuf buffer committed
+19963:[gles] flip done
+19964:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+19979:[renderer] dmabuf buffer committed
+19986:[gles] flip done
+19987:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20002:[renderer] dmabuf buffer committed
+20009:[gles] flip done
+20010:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20025:[renderer] dmabuf buffer committed
+20032:[gles] flip done
+20033:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20048:[renderer] dmabuf buffer committed
+20055:[gles] flip done
+20056:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20071:[renderer] dmabuf buffer committed
+20078:[gles] flip done
+20079:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20094:[renderer] dmabuf buffer committed
+20101:[gles] flip done
+20102:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20117:[renderer] dmabuf buffer committed
+20124:[gles] flip done
+20125:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20140:[renderer] dmabuf buffer committed
+20147:[gles] flip done
+20148:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20163:[renderer] dmabuf buffer committed
+20170:[gles] flip done
+20171:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20186:[renderer] dmabuf buffer committed
+20193:[gles] flip done
+20194:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20209:[renderer] dmabuf buffer committed
+20216:[gles] flip done
+20217:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20232:[renderer] dmabuf buffer committed
+20239:[gles] flip done
+20240:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20255:[renderer] dmabuf buffer committed
+20262:[gles] flip done
+20263:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20278:[renderer] dmabuf buffer committed
+20285:[gles] flip done
+20286:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20301:[renderer] dmabuf buffer committed
+20308:[gles] flip done
+20309:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20324:[renderer] dmabuf buffer committed
+20331:[gles] flip done
+20332:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20347:[renderer] dmabuf buffer committed
+20354:[gles] flip done
+20355:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20370:[renderer] dmabuf buffer committed
+20377:[gles] flip done
+20378:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20393:[renderer] dmabuf buffer committed
+20400:[gles] flip done
+20401:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20416:[renderer] dmabuf buffer committed
+20423:[gles] flip done
+20424:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20439:[renderer] dmabuf buffer committed
+20446:[gles] flip done
+20447:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20462:[renderer] dmabuf buffer committed
+20469:[gles] flip done
+20470:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20485:[renderer] dmabuf buffer committed
+20492:[gles] flip done
+20493:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20508:[renderer] dmabuf buffer committed
+20515:[gles] flip done
+20516:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20531:[renderer] dmabuf buffer committed
+20538:[gles] flip done
+20539:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20554:[renderer] dmabuf buffer committed
+20561:[gles] flip done
+20562:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20577:[renderer] dmabuf buffer committed
+20584:[gles] flip done
+20585:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20600:[renderer] dmabuf buffer committed
+20607:[gles] flip done
+20608:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20623:[renderer] dmabuf buffer committed
+20630:[gles] flip done
+20631:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20646:[renderer] dmabuf buffer committed
+20653:[gles] flip done
+20654:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20669:[renderer] dmabuf buffer committed
+20676:[gles] flip done
+20677:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20692:[renderer] dmabuf buffer committed
+20699:[gles] flip done
+20700:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20715:[renderer] dmabuf buffer committed
+20722:[gles] flip done
+20723:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20738:[renderer] dmabuf buffer committed
+20745:[gles] flip done
+20746:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20761:[renderer] dmabuf buffer committed
+20768:[gles] flip done
+20769:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20784:[renderer] dmabuf buffer committed
+20791:[gles] flip done
+20792:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20807:[renderer] dmabuf buffer committed
+20814:[gles] flip done
+20815:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20830:[renderer] dmabuf buffer committed
+20837:[gles] flip done
+20838:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20853:[renderer] dmabuf buffer committed
+20860:[gles] flip done
+20861:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20876:[renderer] dmabuf buffer committed
+20883:[gles] flip done
+20884:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20899:[renderer] dmabuf buffer committed
+20906:[gles] flip done
+20907:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20922:[renderer] dmabuf buffer committed
+20929:[gles] flip done
+20930:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20945:[renderer] dmabuf buffer committed
+20952:[gles] flip done
+20953:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20968:[renderer] dmabuf buffer committed
+20975:[gles] flip done
+20976:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+20991:[renderer] dmabuf buffer committed
+20998:[gles] flip done
+20999:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21014:[renderer] dmabuf buffer committed
+21021:[gles] flip done
+21022:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21037:[renderer] dmabuf buffer committed
+21044:[gles] flip done
+21045:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21060:[renderer] dmabuf buffer committed
+21067:[gles] flip done
+21068:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21083:[renderer] dmabuf buffer committed
+21090:[gles] flip done
+21091:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21106:[renderer] dmabuf buffer committed
+21113:[gles] flip done
+21114:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21129:[renderer] dmabuf buffer committed
+21136:[gles] flip done
+21137:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21152:[renderer] dmabuf buffer committed
+21159:[gles] flip done
+21160:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21175:[renderer] dmabuf buffer committed
+21182:[gles] flip done
+21183:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21198:[renderer] dmabuf buffer committed
+21205:[gles] flip done
+21206:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21221:[renderer] dmabuf buffer committed
+21228:[gles] flip done
+21229:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21244:[renderer] dmabuf buffer committed
+21251:[gles] flip done
+21252:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21267:[renderer] dmabuf buffer committed
+21274:[gles] flip done
+21275:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21290:[renderer] dmabuf buffer committed
+21297:[gles] flip done
+21298:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21313:[renderer] dmabuf buffer committed
+21320:[gles] flip done
+21321:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21336:[renderer] dmabuf buffer committed
+21343:[gles] flip done
+21344:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21359:[renderer] dmabuf buffer committed
+21366:[gles] flip done
+21367:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21382:[renderer] dmabuf buffer committed
+21389:[gles] flip done
+21390:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21405:[renderer] dmabuf buffer committed
+21412:[gles] flip done
+21413:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21428:[renderer] dmabuf buffer committed
+21435:[gles] flip done
+21436:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21451:[renderer] dmabuf buffer committed
+21458:[gles] flip done
+21459:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21474:[renderer] dmabuf buffer committed
+21481:[gles] flip done
+21482:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21497:[renderer] dmabuf buffer committed
+21504:[gles] flip done
+21505:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21520:[renderer] dmabuf buffer committed
+21527:[gles] flip done
+21528:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21543:[renderer] dmabuf buffer committed
+21550:[gles] flip done
+21551:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21566:[renderer] dmabuf buffer committed
+21573:[gles] flip done
+21574:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21590:[renderer] dmabuf buffer committed
+21597:[gles] flip done
+21598:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21616:[renderer] dmabuf buffer committed
+21623:[gles] flip done
+21624:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21639:[renderer] dmabuf buffer committed
+21646:[gles] flip done
+21647:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21662:[renderer] dmabuf buffer committed
+21669:[gles] flip done
+21670:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21685:[renderer] dmabuf buffer committed
+21692:[gles] flip done
+21693:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21708:[renderer] dmabuf buffer committed
+21715:[gles] flip done
+21716:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21731:[renderer] dmabuf buffer committed
+21738:[gles] flip done
+21739:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21754:[renderer] dmabuf buffer committed
+21761:[gles] flip done
+21762:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21777:[renderer] dmabuf buffer committed
+21784:[gles] flip done
+21785:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21800:[renderer] dmabuf buffer committed
+21807:[gles] flip done
+21808:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21823:[renderer] dmabuf buffer committed
+21830:[gles] flip done
+21831:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21846:[renderer] dmabuf buffer committed
+21853:[gles] flip done
+21854:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21869:[renderer] dmabuf buffer committed
+21876:[gles] flip done
+21877:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21892:[renderer] dmabuf buffer committed
+21899:[gles] flip done
+21900:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21915:[renderer] dmabuf buffer committed
+21922:[gles] flip done
+21923:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21938:[renderer] dmabuf buffer committed
+21945:[gles] flip done
+21946:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21961:[renderer] dmabuf buffer committed
+21968:[gles] flip done
+21969:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+21984:[renderer] dmabuf buffer committed
+21991:[gles] flip done
+21992:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22007:[renderer] dmabuf buffer committed
+22014:[gles] flip done
+22015:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22030:[renderer] dmabuf buffer committed
+22037:[gles] flip done
+22038:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22053:[renderer] dmabuf buffer committed
+22060:[gles] flip done
+22061:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22076:[renderer] dmabuf buffer committed
+22083:[gles] flip done
+22084:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22099:[renderer] dmabuf buffer committed
+22106:[gles] flip done
+22107:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22122:[renderer] dmabuf buffer committed
+22129:[gles] flip done
+22130:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22145:[renderer] dmabuf buffer committed
+22152:[gles] flip done
+22153:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22168:[renderer] dmabuf buffer committed
+22175:[gles] flip done
+22176:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22191:[renderer] dmabuf buffer committed
+22198:[gles] flip done
+22199:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22214:[renderer] dmabuf buffer committed
+22221:[gles] flip done
+22222:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22237:[renderer] dmabuf buffer committed
+22244:[gles] flip done
+22245:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22260:[renderer] dmabuf buffer committed
+22267:[gles] flip done
+22268:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22283:[renderer] dmabuf buffer committed
+22290:[gles] flip done
+22291:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22306:[renderer] dmabuf buffer committed
+22313:[gles] flip done
+22314:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22329:[renderer] dmabuf buffer committed
+22336:[gles] flip done
+22337:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22352:[renderer] dmabuf buffer committed
+22359:[gles] flip done
+22360:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22375:[renderer] dmabuf buffer committed
+22382:[gles] flip done
+22383:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22398:[renderer] dmabuf buffer committed
+22405:[gles] flip done
+22406:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22421:[renderer] dmabuf buffer committed
+22428:[gles] flip done
+22429:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22444:[renderer] dmabuf buffer committed
+22451:[gles] flip done
+22452:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22467:[renderer] dmabuf buffer committed
+22474:[gles] flip done
+22475:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22490:[renderer] dmabuf buffer committed
+22497:[gles] flip done
+22498:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22513:[renderer] dmabuf buffer committed
+22520:[gles] flip done
+22521:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22536:[renderer] dmabuf buffer committed
+22543:[gles] flip done
+22544:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22559:[renderer] dmabuf buffer committed
+22566:[gles] flip done
+22567:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22582:[renderer] dmabuf buffer committed
+22589:[gles] flip done
+22590:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22605:[renderer] dmabuf buffer committed
+22612:[gles] flip done
+22613:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22628:[renderer] dmabuf buffer committed
+22635:[gles] flip done
+22636:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22651:[renderer] dmabuf buffer committed
+22658:[gles] flip done
+22659:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22674:[renderer] dmabuf buffer committed
+22681:[gles] flip done
+22682:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22697:[renderer] dmabuf buffer committed
+22704:[gles] flip done
+22705:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22720:[renderer] dmabuf buffer committed
+22727:[gles] flip done
+22728:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22743:[renderer] dmabuf buffer committed
+22750:[gles] flip done
+22751:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22766:[renderer] dmabuf buffer committed
+22773:[gles] flip done
+22774:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22789:[renderer] dmabuf buffer committed
+22796:[gles] flip done
+22797:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22812:[renderer] dmabuf buffer committed
+22819:[gles] flip done
+22820:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22835:[renderer] dmabuf buffer committed
+22842:[gles] flip done
+22843:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22858:[renderer] dmabuf buffer committed
+22865:[gles] flip done
+22866:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22881:[renderer] dmabuf buffer committed
+22888:[gles] flip done
+22889:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22904:[renderer] dmabuf buffer committed
+22911:[gles] flip done
+22912:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22927:[renderer] dmabuf buffer committed
+22934:[gles] flip done
+22935:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22950:[renderer] dmabuf buffer committed
+22957:[gles] flip done
+22958:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22973:[renderer] dmabuf buffer committed
+22980:[gles] flip done
+22981:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+22996:[renderer] dmabuf buffer committed
+23003:[gles] flip done
+23004:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23019:[renderer] dmabuf buffer committed
+23026:[gles] flip done
+23027:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23042:[renderer] dmabuf buffer committed
+23049:[gles] flip done
+23050:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23065:[renderer] dmabuf buffer committed
+23072:[gles] flip done
+23073:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23088:[renderer] dmabuf buffer committed
+23095:[gles] flip done
+23096:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23111:[renderer] dmabuf buffer committed
+23118:[gles] flip done
+23119:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23134:[renderer] dmabuf buffer committed
+23141:[gles] flip done
+23142:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23157:[renderer] dmabuf buffer committed
+23164:[gles] flip done
+23165:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23180:[renderer] dmabuf buffer committed
+23187:[gles] flip done
+23188:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23203:[renderer] dmabuf buffer committed
+23210:[gles] flip done
+23211:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23226:[renderer] dmabuf buffer committed
+23233:[gles] flip done
+23234:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23249:[renderer] dmabuf buffer committed
+23256:[gles] flip done
+23257:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23272:[renderer] dmabuf buffer committed
+23279:[gles] flip done
+23280:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23295:[renderer] dmabuf buffer committed
+23302:[gles] flip done
+23303:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23318:[renderer] dmabuf buffer committed
+23325:[gles] flip done
+23326:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23341:[renderer] dmabuf buffer committed
+23348:[gles] flip done
+23349:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23364:[renderer] dmabuf buffer committed
+23371:[gles] flip done
+23372:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23387:[renderer] dmabuf buffer committed
+23394:[gles] flip done
+23395:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23410:[renderer] dmabuf buffer committed
+23417:[gles] flip done
+23418:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23433:[renderer] dmabuf buffer committed
+23440:[gles] flip done
+23441:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23456:[renderer] dmabuf buffer committed
+23463:[gles] flip done
+23464:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23479:[renderer] dmabuf buffer committed
+23486:[gles] flip done
+23487:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23502:[renderer] dmabuf buffer committed
+23509:[gles] flip done
+23510:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23525:[renderer] dmabuf buffer committed
+23532:[gles] flip done
+23533:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23548:[renderer] dmabuf buffer committed
+23555:[gles] flip done
+23556:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23571:[renderer] dmabuf buffer committed
+23578:[gles] flip done
+23579:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23594:[renderer] dmabuf buffer committed
+23601:[gles] flip done
+23602:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23617:[renderer] dmabuf buffer committed
+23624:[gles] flip done
+23625:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23640:[renderer] dmabuf buffer committed
+23647:[gles] flip done
+23648:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23663:[renderer] dmabuf buffer committed
+23670:[gles] flip done
+23671:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23686:[renderer] dmabuf buffer committed
+23693:[gles] flip done
+23694:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23709:[renderer] dmabuf buffer committed
+23716:[gles] flip done
+23717:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23732:[renderer] dmabuf buffer committed
+23739:[gles] flip done
+23740:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23755:[renderer] dmabuf buffer committed
+23762:[gles] flip done
+23763:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23778:[renderer] dmabuf buffer committed
+23785:[gles] flip done
+23786:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23801:[renderer] dmabuf buffer committed
+23808:[gles] flip done
+23809:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23824:[renderer] dmabuf buffer committed
+23831:[gles] flip done
+23832:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23847:[renderer] dmabuf buffer committed
+23854:[gles] flip done
+23855:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23870:[renderer] dmabuf buffer committed
+23877:[gles] flip done
+23878:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23893:[renderer] dmabuf buffer committed
+23900:[gles] flip done
+23901:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23916:[renderer] dmabuf buffer committed
+23923:[gles] flip done
+23924:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23939:[renderer] dmabuf buffer committed
+23946:[gles] flip done
+23947:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23962:[renderer] dmabuf buffer committed
+23969:[gles] flip done
+23970:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+23985:[renderer] dmabuf buffer committed
+23992:[gles] flip done
+23993:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24008:[renderer] dmabuf buffer committed
+24015:[gles] flip done
+24016:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24031:[renderer] dmabuf buffer committed
+24038:[gles] flip done
+24039:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24054:[renderer] dmabuf buffer committed
+24061:[gles] flip done
+24062:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24077:[renderer] dmabuf buffer committed
+24084:[gles] flip done
+24085:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24100:[renderer] dmabuf buffer committed
+24107:[gles] flip done
+24108:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24123:[renderer] dmabuf buffer committed
+24130:[gles] flip done
+24131:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24146:[renderer] dmabuf buffer committed
+24153:[gles] flip done
+24154:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24169:[renderer] dmabuf buffer committed
+24176:[gles] flip done
+24177:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24192:[renderer] dmabuf buffer committed
+24199:[gles] flip done
+24200:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24215:[renderer] dmabuf buffer committed
+24222:[gles] flip done
+24223:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24238:[renderer] dmabuf buffer committed
+24245:[gles] flip done
+24246:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24261:[renderer] dmabuf buffer committed
+24268:[gles] flip done
+24269:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24284:[renderer] dmabuf buffer committed
+24291:[gles] flip done
+24292:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24307:[renderer] dmabuf buffer committed
+24314:[gles] flip done
+24315:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24330:[renderer] dmabuf buffer committed
+24337:[gles] flip done
+24338:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24353:[renderer] dmabuf buffer committed
+24360:[gles] flip done
+24361:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24376:[renderer] dmabuf buffer committed
+24383:[gles] flip done
+24384:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24399:[renderer] dmabuf buffer committed
+24406:[gles] flip done
+24407:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24422:[renderer] dmabuf buffer committed
+24429:[gles] flip done
+24430:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24445:[renderer] dmabuf buffer committed
+24452:[gles] flip done
+24453:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24468:[renderer] dmabuf buffer committed
+24475:[gles] flip done
+24476:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24491:[renderer] dmabuf buffer committed
+24498:[gles] flip done
+24499:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24514:[renderer] dmabuf buffer committed
+24521:[gles] flip done
+24522:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24537:[renderer] dmabuf buffer committed
+24544:[gles] flip done
+24545:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24560:[renderer] dmabuf buffer committed
+24567:[gles] flip done
+24568:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24583:[renderer] dmabuf buffer committed
+24590:[gles] flip done
+24591:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24606:[renderer] dmabuf buffer committed
+24613:[gles] flip done
+24614:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24629:[renderer] dmabuf buffer committed
+24636:[gles] flip done
+24637:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24652:[renderer] dmabuf buffer committed
+24659:[gles] flip done
+24660:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24675:[renderer] dmabuf buffer committed
+24682:[gles] flip done
+24683:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24698:[renderer] dmabuf buffer committed
+24705:[gles] flip done
+24706:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24721:[renderer] dmabuf buffer committed
+24728:[gles] flip done
+24729:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24744:[renderer] dmabuf buffer committed
+24751:[gles] flip done
+24752:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24767:[renderer] dmabuf buffer committed
+24774:[gles] flip done
+24775:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24790:[renderer] dmabuf buffer committed
+24797:[gles] flip done
+24798:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24813:[renderer] dmabuf buffer committed
+24820:[gles] flip done
+24821:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24836:[renderer] dmabuf buffer committed
+24843:[gles] flip done
+24844:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24859:[renderer] dmabuf buffer committed
+24866:[gles] flip done
+24867:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24882:[renderer] dmabuf buffer committed
+24889:[gles] flip done
+24890:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24905:[renderer] dmabuf buffer committed
+24912:[gles] flip done
+24913:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24928:[renderer] dmabuf buffer committed
+24935:[gles] flip done
+24936:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24951:[renderer] dmabuf buffer committed
+24958:[gles] flip done
+24959:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24974:[renderer] dmabuf buffer committed
+24981:[gles] flip done
+24982:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+24997:[renderer] dmabuf buffer committed
+25004:[gles] flip done
+25005:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25020:[renderer] dmabuf buffer committed
+25027:[gles] flip done
+25028:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25043:[renderer] dmabuf buffer committed
+25050:[gles] flip done
+25051:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25066:[renderer] dmabuf buffer committed
+25073:[gles] flip done
+25074:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25089:[renderer] dmabuf buffer committed
+25096:[gles] flip done
+25097:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25112:[renderer] dmabuf buffer committed
+25119:[gles] flip done
+25120:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25135:[renderer] dmabuf buffer committed
+25142:[gles] flip done
+25143:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25158:[renderer] dmabuf buffer committed
+25165:[gles] flip done
+25166:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25181:[renderer] dmabuf buffer committed
+25188:[gles] flip done
+25189:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25204:[renderer] dmabuf buffer committed
+25211:[gles] flip done
+25212:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25227:[renderer] dmabuf buffer committed
+25234:[gles] flip done
+25235:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25250:[renderer] dmabuf buffer committed
+25257:[gles] flip done
+25258:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25273:[renderer] dmabuf buffer committed
+25280:[gles] flip done
+25281:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25296:[renderer] dmabuf buffer committed
+25303:[gles] flip done
+25304:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25319:[renderer] dmabuf buffer committed
+25326:[gles] flip done
+25327:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25342:[renderer] dmabuf buffer committed
+25349:[gles] flip done
+25350:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25365:[renderer] dmabuf buffer committed
+25372:[gles] flip done
+25373:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25388:[renderer] dmabuf buffer committed
+25395:[gles] flip done
+25396:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25411:[renderer] dmabuf buffer committed
+25418:[gles] flip done
+25419:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25434:[renderer] dmabuf buffer committed
+25441:[gles] flip done
+25442:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25457:[renderer] dmabuf buffer committed
+25464:[gles] flip done
+25465:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25480:[renderer] dmabuf buffer committed
+25487:[gles] flip done
+25488:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25503:[renderer] dmabuf buffer committed
+25510:[gles] flip done
+25511:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25526:[renderer] dmabuf buffer committed
+25533:[gles] flip done
+25534:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25549:[renderer] dmabuf buffer committed
+25556:[gles] flip done
+25557:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25572:[renderer] dmabuf buffer committed
+25579:[gles] flip done
+25580:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25595:[renderer] dmabuf buffer committed
+25602:[gles] flip done
+25603:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25618:[renderer] dmabuf buffer committed
+25625:[gles] flip done
+25626:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25641:[renderer] dmabuf buffer committed
+25648:[gles] flip done
+25649:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25664:[renderer] dmabuf buffer committed
+25671:[gles] flip done
+25672:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25687:[renderer] dmabuf buffer committed
+25694:[gles] flip done
+25695:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25710:[renderer] dmabuf buffer committed
+25717:[gles] flip done
+25718:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25733:[renderer] dmabuf buffer committed
+25740:[gles] flip done
+25741:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25756:[renderer] dmabuf buffer committed
+25763:[gles] flip done
+25764:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25779:[renderer] dmabuf buffer committed
+25786:[gles] flip done
+25787:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25802:[renderer] dmabuf buffer committed
+25809:[gles] flip done
+25810:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25825:[renderer] dmabuf buffer committed
+25832:[gles] flip done
+25833:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25848:[renderer] dmabuf buffer committed
+25855:[gles] flip done
+25856:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25871:[renderer] dmabuf buffer committed
+25878:[gles] flip done
+25879:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25894:[renderer] dmabuf buffer committed
+25901:[gles] flip done
+25902:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25917:[renderer] dmabuf buffer committed
+25924:[gles] flip done
+25925:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25940:[renderer] dmabuf buffer committed
+25947:[gles] flip done
+25948:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25963:[renderer] dmabuf buffer committed
+25970:[gles] flip done
+25971:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+25986:[renderer] dmabuf buffer committed
+25993:[gles] flip done
+25994:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26009:[renderer] dmabuf buffer committed
+26016:[gles] flip done
+26017:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26032:[renderer] dmabuf buffer committed
+26039:[gles] flip done
+26040:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26055:[renderer] dmabuf buffer committed
+26062:[gles] flip done
+26063:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26078:[renderer] dmabuf buffer committed
+26085:[gles] flip done
+26086:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26101:[renderer] dmabuf buffer committed
+26108:[gles] flip done
+26109:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26124:[renderer] dmabuf buffer committed
+26131:[gles] flip done
+26132:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26147:[renderer] dmabuf buffer committed
+26154:[gles] flip done
+26155:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26170:[renderer] dmabuf buffer committed
+26177:[gles] flip done
+26178:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26193:[renderer] dmabuf buffer committed
+26200:[gles] flip done
+26201:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26216:[renderer] dmabuf buffer committed
+26223:[gles] flip done
+26224:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26239:[renderer] dmabuf buffer committed
+26246:[gles] flip done
+26247:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26262:[renderer] dmabuf buffer committed
+26269:[gles] flip done
+26270:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26285:[renderer] dmabuf buffer committed
+26292:[gles] flip done
+26293:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26308:[renderer] dmabuf buffer committed
+26315:[gles] flip done
+26316:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26331:[renderer] dmabuf buffer committed
+26338:[gles] flip done
+26339:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26354:[renderer] dmabuf buffer committed
+26361:[gles] flip done
+26362:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26377:[renderer] dmabuf buffer committed
+26384:[gles] flip done
+26385:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26400:[renderer] dmabuf buffer committed
+26407:[gles] flip done
+26408:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26423:[renderer] dmabuf buffer committed
+26430:[gles] flip done
+26431:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26446:[renderer] dmabuf buffer committed
+26453:[gles] flip done
+26454:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26469:[renderer] dmabuf buffer committed
+26476:[gles] flip done
+26477:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26492:[renderer] dmabuf buffer committed
+26499:[gles] flip done
+26500:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26515:[renderer] dmabuf buffer committed
+26522:[gles] flip done
+26523:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26538:[renderer] dmabuf buffer committed
+26545:[gles] flip done
+26546:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26561:[renderer] dmabuf buffer committed
+26568:[gles] flip done
+26569:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26584:[renderer] dmabuf buffer committed
+26591:[gles] flip done
+26592:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26607:[renderer] dmabuf buffer committed
+26614:[gles] flip done
+26615:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26630:[renderer] dmabuf buffer committed
+26637:[gles] flip done
+26638:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26653:[renderer] dmabuf buffer committed
+26660:[gles] flip done
+26661:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26676:[renderer] dmabuf buffer committed
+26683:[gles] flip done
+26684:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26699:[renderer] dmabuf buffer committed
+26706:[gles] flip done
+26707:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26722:[renderer] dmabuf buffer committed
+26729:[gles] flip done
+26730:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26745:[renderer] dmabuf buffer committed
+26752:[gles] flip done
+26753:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26768:[renderer] dmabuf buffer committed
+26775:[gles] flip done
+26776:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26791:[renderer] dmabuf buffer committed
+26798:[gles] flip done
+26799:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26814:[renderer] dmabuf buffer committed
+26821:[gles] flip done
+26822:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26837:[renderer] dmabuf buffer committed
+26844:[gles] flip done
+26845:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26860:[renderer] dmabuf buffer committed
+26867:[gles] flip done
+26868:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26883:[renderer] dmabuf buffer committed
+26890:[gles] flip done
+26891:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26906:[renderer] dmabuf buffer committed
+26913:[gles] flip done
+26914:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26929:[renderer] dmabuf buffer committed
+26936:[gles] flip done
+26937:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26952:[renderer] dmabuf buffer committed
+26959:[gles] flip done
+26960:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26975:[renderer] dmabuf buffer committed
+26982:[gles] flip done
+26983:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+26998:[renderer] dmabuf buffer committed
+27005:[gles] flip done
+27006:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27021:[renderer] dmabuf buffer committed
+27028:[gles] flip done
+27029:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27044:[renderer] dmabuf buffer committed
+27051:[gles] flip done
+27052:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27067:[renderer] dmabuf buffer committed
+27074:[gles] flip done
+27075:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27090:[renderer] dmabuf buffer committed
+27097:[gles] flip done
+27098:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27113:[renderer] dmabuf buffer committed
+27120:[gles] flip done
+27121:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27136:[renderer] dmabuf buffer committed
+27143:[gles] flip done
+27144:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27159:[renderer] dmabuf buffer committed
+27166:[gles] flip done
+27167:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27182:[renderer] dmabuf buffer committed
+27189:[gles] flip done
+27190:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27205:[renderer] dmabuf buffer committed
+27212:[gles] flip done
+27213:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27228:[renderer] dmabuf buffer committed
+27235:[gles] flip done
+27236:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27251:[renderer] dmabuf buffer committed
+27258:[gles] flip done
+27259:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27274:[renderer] dmabuf buffer committed
+27281:[gles] flip done
+27282:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27297:[renderer] dmabuf buffer committed
+27304:[gles] flip done
+27305:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27320:[renderer] dmabuf buffer committed
+27327:[gles] flip done
+27328:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27343:[renderer] dmabuf buffer committed
+27350:[gles] flip done
+27351:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27366:[renderer] dmabuf buffer committed
+27373:[gles] flip done
+27374:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27389:[renderer] dmabuf buffer committed
+27396:[gles] flip done
+27397:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27412:[renderer] dmabuf buffer committed
+27419:[gles] flip done
+27420:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27435:[renderer] dmabuf buffer committed
+27442:[gles] flip done
+27443:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27458:[renderer] dmabuf buffer committed
+27465:[gles] flip done
+27466:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27481:[renderer] dmabuf buffer committed
+27488:[gles] flip done
+27489:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27504:[renderer] dmabuf buffer committed
+27511:[gles] flip done
+27512:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27527:[renderer] dmabuf buffer committed
+27534:[gles] flip done
+27535:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27550:[renderer] dmabuf buffer committed
+27557:[gles] flip done
+27558:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27573:[renderer] dmabuf buffer committed
+27580:[gles] flip done
+27581:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27596:[renderer] dmabuf buffer committed
+27603:[gles] flip done
+27604:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27619:[renderer] dmabuf buffer committed
+27626:[gles] flip done
+27627:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27642:[renderer] dmabuf buffer committed
+27649:[gles] flip done
+27650:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27665:[renderer] dmabuf buffer committed
+27672:[gles] flip done
+27673:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27688:[renderer] dmabuf buffer committed
+27695:[gles] flip done
+27696:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27711:[renderer] dmabuf buffer committed
+27718:[gles] flip done
+27719:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27734:[renderer] dmabuf buffer committed
+27741:[gles] flip done
+27742:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27757:[renderer] dmabuf buffer committed
+27764:[gles] flip done
+27765:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27780:[renderer] dmabuf buffer committed
+27787:[gles] flip done
+27788:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27803:[renderer] dmabuf buffer committed
+27810:[gles] flip done
+27811:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27826:[renderer] dmabuf buffer committed
+27833:[gles] flip done
+27834:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27849:[renderer] dmabuf buffer committed
+27856:[gles] flip done
+27857:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27872:[renderer] dmabuf buffer committed
+27879:[gles] flip done
+27880:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27895:[renderer] dmabuf buffer committed
+27902:[gles] flip done
+27903:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27918:[renderer] dmabuf buffer committed
+27925:[gles] flip done
+27926:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27941:[renderer] dmabuf buffer committed
+27948:[gles] flip done
+27949:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27964:[renderer] dmabuf buffer committed
+27971:[gles] flip done
+27972:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+27987:[renderer] dmabuf buffer committed
+27994:[gles] flip done
+27995:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28010:[renderer] dmabuf buffer committed
+28017:[gles] flip done
+28018:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28033:[renderer] dmabuf buffer committed
+28040:[gles] flip done
+28041:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28056:[renderer] dmabuf buffer committed
+28063:[gles] flip done
+28064:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28079:[renderer] dmabuf buffer committed
+28086:[gles] flip done
+28087:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28102:[renderer] dmabuf buffer committed
+28109:[gles] flip done
+28110:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28125:[renderer] dmabuf buffer committed
+28132:[gles] flip done
+28133:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28148:[renderer] dmabuf buffer committed
+28155:[gles] flip done
+28156:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28171:[renderer] dmabuf buffer committed
+28178:[gles] flip done
+28179:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28194:[renderer] dmabuf buffer committed
+28201:[gles] flip done
+28202:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28217:[renderer] dmabuf buffer committed
+28224:[gles] flip done
+28225:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28240:[renderer] dmabuf buffer committed
+28247:[gles] flip done
+28248:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28263:[renderer] dmabuf buffer committed
+28270:[gles] flip done
+28271:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28286:[renderer] dmabuf buffer committed
+28293:[gles] flip done
+28294:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28309:[renderer] dmabuf buffer committed
+28316:[gles] flip done
+28317:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28332:[renderer] dmabuf buffer committed
+28339:[gles] flip done
+28340:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28355:[renderer] dmabuf buffer committed
+28362:[gles] flip done
+28363:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28378:[renderer] dmabuf buffer committed
+28385:[gles] flip done
+28386:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28401:[renderer] dmabuf buffer committed
+28408:[gles] flip done
+28409:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28424:[renderer] dmabuf buffer committed
+28431:[gles] flip done
+28432:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28447:[renderer] dmabuf buffer committed
+28454:[gles] flip done
+28455:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28470:[renderer] dmabuf buffer committed
+28477:[gles] flip done
+28478:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28493:[renderer] dmabuf buffer committed
+28500:[gles] flip done
+28501:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28516:[renderer] dmabuf buffer committed
+28523:[gles] flip done
+28524:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28539:[renderer] dmabuf buffer committed
+28546:[gles] flip done
+28547:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28562:[renderer] dmabuf buffer committed
+28569:[gles] flip done
+28570:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28585:[renderer] dmabuf buffer committed
+28592:[gles] flip done
+28593:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28608:[renderer] dmabuf buffer committed
+28615:[gles] flip done
+28616:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28631:[renderer] dmabuf buffer committed
+28638:[gles] flip done
+28639:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28654:[renderer] dmabuf buffer committed
+28661:[gles] flip done
+28662:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28677:[renderer] dmabuf buffer committed
+28684:[gles] flip done
+28685:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28700:[renderer] dmabuf buffer committed
+28707:[gles] flip done
+28708:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28723:[renderer] dmabuf buffer committed
+28730:[gles] flip done
+28731:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28746:[renderer] dmabuf buffer committed
+28753:[gles] flip done
+28754:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28769:[renderer] dmabuf buffer committed
+28776:[gles] flip done
+28777:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28792:[renderer] dmabuf buffer committed
+28799:[gles] flip done
+28800:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28815:[renderer] dmabuf buffer committed
+28822:[gles] flip done
+28823:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28838:[renderer] dmabuf buffer committed
+28845:[gles] flip done
+28846:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28861:[renderer] dmabuf buffer committed
+28868:[gles] flip done
+28869:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28884:[renderer] dmabuf buffer committed
+28891:[gles] flip done
+28892:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28907:[renderer] dmabuf buffer committed
+28914:[gles] flip done
+28915:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28930:[renderer] dmabuf buffer committed
+28937:[gles] flip done
+28938:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28953:[renderer] dmabuf buffer committed
+28960:[gles] flip done
+28961:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28976:[renderer] dmabuf buffer committed
+28983:[gles] flip done
+28984:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+28999:[renderer] dmabuf buffer committed
+29006:[gles] flip done
+29007:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29022:[renderer] dmabuf buffer committed
+29029:[gles] flip done
+29030:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29045:[renderer] dmabuf buffer committed
+29052:[gles] flip done
+29053:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29068:[renderer] dmabuf buffer committed
+29075:[gles] flip done
+29076:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29091:[renderer] dmabuf buffer committed
+29098:[gles] flip done
+29099:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29114:[renderer] dmabuf buffer committed
+29121:[gles] flip done
+29122:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29137:[renderer] dmabuf buffer committed
+29144:[gles] flip done
+29145:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29160:[renderer] dmabuf buffer committed
+29167:[gles] flip done
+29168:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29183:[renderer] dmabuf buffer committed
+29190:[gles] flip done
+29191:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29206:[renderer] dmabuf buffer committed
+29213:[gles] flip done
+29214:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29229:[renderer] dmabuf buffer committed
+29236:[gles] flip done
+29237:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29252:[renderer] dmabuf buffer committed
+29259:[gles] flip done
+29260:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29275:[renderer] dmabuf buffer committed
+29282:[gles] flip done
+29283:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29298:[renderer] dmabuf buffer committed
+29305:[gles] flip done
+29306:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29321:[renderer] dmabuf buffer committed
+29328:[gles] flip done
+29329:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29344:[renderer] dmabuf buffer committed
+29351:[gles] flip done
+29352:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29367:[renderer] dmabuf buffer committed
+29374:[gles] flip done
+29375:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29390:[renderer] dmabuf buffer committed
+29397:[gles] flip done
+29398:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29413:[renderer] dmabuf buffer committed
+29420:[gles] flip done
+29421:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29436:[renderer] dmabuf buffer committed
+29443:[gles] flip done
+29444:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29459:[renderer] dmabuf buffer committed
+29466:[gles] flip done
+29467:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29482:[renderer] dmabuf buffer committed
+29489:[gles] flip done
+29490:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29505:[renderer] dmabuf buffer committed
+29512:[gles] flip done
+29513:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29528:[renderer] dmabuf buffer committed
+29535:[gles] flip done
+29536:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29551:[renderer] dmabuf buffer committed
+29558:[gles] flip done
+29559:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29574:[renderer] dmabuf buffer committed
+29581:[gles] flip done
+29582:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29597:[renderer] dmabuf buffer committed
+29604:[gles] flip done
+29605:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29620:[renderer] dmabuf buffer committed
+29627:[gles] flip done
+29628:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29643:[renderer] dmabuf buffer committed
+29650:[gles] flip done
+29651:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29666:[renderer] dmabuf buffer committed
+29673:[gles] flip done
+29674:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29689:[renderer] dmabuf buffer committed
+29696:[gles] flip done
+29697:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29712:[renderer] dmabuf buffer committed
+29719:[gles] flip done
+29720:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29735:[renderer] dmabuf buffer committed
+29742:[gles] flip done
+29743:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29758:[renderer] dmabuf buffer committed
+29765:[gles] flip done
+29766:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29781:[renderer] dmabuf buffer committed
+29788:[gles] flip done
+29789:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29804:[renderer] dmabuf buffer committed
+29811:[gles] flip done
+29812:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29827:[renderer] dmabuf buffer committed
+29834:[gles] flip done
+29835:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29850:[renderer] dmabuf buffer committed
+29857:[gles] flip done
+29858:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29873:[renderer] dmabuf buffer committed
+29880:[gles] flip done
+29881:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29896:[renderer] dmabuf buffer committed
+29903:[gles] flip done
+29904:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29919:[renderer] dmabuf buffer committed
+29926:[gles] flip done
+29927:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29942:[renderer] dmabuf buffer committed
+29949:[gles] flip done
+29950:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29965:[renderer] dmabuf buffer committed
+29972:[gles] flip done
+29973:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+29988:[renderer] dmabuf buffer committed
+29995:[gles] flip done
+29996:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30011:[renderer] dmabuf buffer committed
+30018:[gles] flip done
+30019:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30034:[renderer] dmabuf buffer committed
+30041:[gles] flip done
+30042:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30057:[renderer] dmabuf buffer committed
+30064:[gles] flip done
+30065:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30080:[renderer] dmabuf buffer committed
+30087:[gles] flip done
+30088:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30103:[renderer] dmabuf buffer committed
+30110:[gles] flip done
+30111:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30126:[renderer] dmabuf buffer committed
+30133:[gles] flip done
+30134:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30149:[renderer] dmabuf buffer committed
+30156:[gles] flip done
+30157:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30172:[renderer] dmabuf buffer committed
+30179:[gles] flip done
+30180:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30195:[renderer] dmabuf buffer committed
+30202:[gles] flip done
+30203:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30218:[renderer] dmabuf buffer committed
+30225:[gles] flip done
+30226:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30241:[renderer] dmabuf buffer committed
+30248:[gles] flip done
+30249:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30264:[renderer] dmabuf buffer committed
+30271:[gles] flip done
+30272:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30287:[renderer] dmabuf buffer committed
+30294:[gles] flip done
+30295:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30310:[renderer] dmabuf buffer committed
+30317:[gles] flip done
+30318:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30333:[renderer] dmabuf buffer committed
+30340:[gles] flip done
+30341:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30356:[renderer] dmabuf buffer committed
+30363:[gles] flip done
+30364:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30379:[renderer] dmabuf buffer committed
+30386:[gles] flip done
+30387:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30402:[renderer] dmabuf buffer committed
+30409:[gles] flip done
+30410:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30425:[renderer] dmabuf buffer committed
+30432:[gles] flip done
+30433:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30448:[renderer] dmabuf buffer committed
+30455:[gles] flip done
+30456:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30471:[renderer] dmabuf buffer committed
+30478:[gles] flip done
+30479:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30494:[renderer] dmabuf buffer committed
+30501:[gles] flip done
+30502:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30517:[renderer] dmabuf buffer committed
+30524:[gles] flip done
+30525:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30540:[renderer] dmabuf buffer committed
+30547:[gles] flip done
+30548:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30563:[renderer] dmabuf buffer committed
+30570:[gles] flip done
+30571:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30586:[renderer] dmabuf buffer committed
+30593:[gles] flip done
+30594:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30609:[renderer] dmabuf buffer committed
+30616:[gles] flip done
+30617:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30632:[renderer] dmabuf buffer committed
+30639:[gles] flip done
+30640:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30655:[renderer] dmabuf buffer committed
+30662:[gles] flip done
+30663:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0
+30678:[renderer] dmabuf buffer committed
+30685:[gles] flip done
+30686:[direct-scanout] ELIGIBLE surface=3 size=256x256 format=XR24 modifier=0

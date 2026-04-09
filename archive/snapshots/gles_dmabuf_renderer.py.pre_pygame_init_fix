@@ -1,0 +1,121 @@
+#!/usr/bin/env python3
+import ctypes
+from ctypes.util import find_library
+
+import pygame
+
+
+GL_CONTEXT_MAJOR_VERSION = pygame.GL_CONTEXT_MAJOR_VERSION
+GL_CONTEXT_MINOR_VERSION = pygame.GL_CONTEXT_MINOR_VERSION
+GL_CONTEXT_PROFILE_MASK = pygame.GL_CONTEXT_PROFILE_MASK
+GL_CONTEXT_PROFILE_ES = pygame.GL_CONTEXT_PROFILE_ES
+GL_DOUBLEBUFFER = pygame.GL_DOUBLEBUFFER
+
+GL_VENDOR = 0x1F00
+GL_RENDERER = 0x1F01
+GL_VERSION = 0x1F02
+GL_EXTENSIONS = 0x1F03
+
+GL_COLOR_BUFFER_BIT = 0x00004000
+GL_TEXTURE_2D = 0x0DE1
+GL_TEXTURE_MIN_FILTER = 0x2801
+GL_TEXTURE_MAG_FILTER = 0x2800
+GL_TEXTURE_WRAP_S = 0x2802
+GL_TEXTURE_WRAP_T = 0x2803
+GL_LINEAR = 0x2601
+GL_CLAMP_TO_EDGE = 0x812F
+
+
+class GlesDmabufRenderer:
+    def __init__(self, size=(640, 360)):
+        self.size = size
+        self.ready = False
+        self.texture = ctypes.c_uint(0)
+
+        self.libegl = ctypes.CDLL(find_library("EGL"))
+        self.libgles = ctypes.CDLL(find_library("GLESv2"))
+
+        self.libegl.eglGetProcAddress.argtypes = [ctypes.c_char_p]
+        self.libegl.eglGetProcAddress.restype = ctypes.c_void_p
+
+        self.libgles.glGetString.argtypes = [ctypes.c_uint]
+        self.libgles.glGetString.restype = ctypes.c_char_p
+
+        self.libgles.glViewport.argtypes = [ctypes.c_int, ctypes.c_int, ctypes.c_int, ctypes.c_int]
+        self.libgles.glViewport.restype = None
+
+        self.libgles.glClearColor.argtypes = [ctypes.c_float, ctypes.c_float, ctypes.c_float, ctypes.c_float]
+        self.libgles.glClearColor.restype = None
+
+        self.libgles.glClear.argtypes = [ctypes.c_uint]
+        self.libgles.glClear.restype = None
+
+        self.libgles.glGenTextures.argtypes = [ctypes.c_int, ctypes.POINTER(ctypes.c_uint)]
+        self.libgles.glGenTextures.restype = None
+
+        self.libgles.glBindTexture.argtypes = [ctypes.c_uint, ctypes.c_uint]
+        self.libgles.glBindTexture.restype = None
+
+        self.libgles.glTexParameteri.argtypes = [ctypes.c_uint, ctypes.c_uint, ctypes.c_int]
+        self.libgles.glTexParameteri.restype = None
+
+        self.glEGLImageTargetTexture2DOES = None
+
+    def _gl_string(self, which):
+        ptr = self.libgles.glGetString(which)
+        if not ptr:
+            return ""
+        return ptr.decode("utf-8", errors="replace")
+
+    def initialize(self):
+        pygame.display.gl_set_attribute(GL_CONTEXT_PROFILE_MASK, GL_CONTEXT_PROFILE_ES)
+        pygame.display.gl_set_attribute(GL_CONTEXT_MAJOR_VERSION, 2)
+        pygame.display.gl_set_attribute(GL_CONTEXT_MINOR_VERSION, 0)
+        pygame.display.gl_set_attribute(GL_DOUBLEBUFFER, 1)
+
+        self.screen = pygame.display.set_mode(self.size, pygame.OPENGL | pygame.DOUBLEBUF)
+        pygame.display.set_caption("moksha-warp dmabuf preview")
+
+        vendor = self._gl_string(GL_VENDOR)
+        renderer = self._gl_string(GL_RENDERER)
+        version = self._gl_string(GL_VERSION)
+        extensions = self._gl_string(GL_EXTENSIONS)
+
+        print("[gles] vendor:", vendor, flush=True)
+        print("[gles] renderer:", renderer, flush=True)
+        print("[gles] version:", version, flush=True)
+        print("[gles] has GL_OES_EGL_image:", "GL_OES_EGL_image" in extensions, flush=True)
+
+        proc = self.libegl.eglGetProcAddress(b"glEGLImageTargetTexture2DOES")
+        if not proc:
+            raise RuntimeError("glEGLImageTargetTexture2DOES not available via eglGetProcAddress")
+
+        PFN = ctypes.CFUNCTYPE(None, ctypes.c_uint, ctypes.c_void_p)
+        self.glEGLImageTargetTexture2DOES = PFN(proc)
+
+        self.libgles.glViewport(0, 0, self.size[0], self.size[1])
+
+        self.libgles.glGenTextures(1, ctypes.byref(self.texture))
+        self.libgles.glBindTexture(GL_TEXTURE_2D, self.texture.value)
+        self.libgles.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR)
+        self.libgles.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR)
+        self.libgles.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE)
+        self.libgles.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE)
+
+        self.ready = True
+        return self
+
+    def present_egl_image(self, egl_image, width, height):
+        if not self.ready:
+            raise RuntimeError("renderer not initialized")
+
+        self.libgles.glViewport(0, 0, self.size[0], self.size[1])
+        self.libgles.glClearColor(0.08, 0.08, 0.10, 1.0)
+        self.libgles.glClear(GL_COLOR_BUFFER_BIT)
+
+        self.libgles.glBindTexture(GL_TEXTURE_2D, self.texture.value)
+        self.glEGLImageTargetTexture2DOES(GL_TEXTURE_2D, ctypes.c_void_p(egl_image))
+
+        # For now this proves bind + swap on a live GL window.
+        # Next step is adding a shader + quad draw.
+        pygame.display.flip()

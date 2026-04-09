@@ -1,0 +1,1059 @@
+=== Moksha-Warp VT zero-copy test ===
+stamp: 20260314-065555
+[1/4] starting compositor...
+[2/4] starting dmabuf client...
+[3/4] summary:
+122:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+123:[scanout] plane-candidate: no overlay plane path yet, using GLES
+139:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+140:[scanout] plane-candidate: no overlay plane path yet, using GLES
+156:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+157:[scanout] plane-candidate: no overlay plane path yet, using GLES
+173:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+174:[scanout] plane-candidate: no overlay plane path yet, using GLES
+190:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+191:[scanout] plane-candidate: no overlay plane path yet, using GLES
+207:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+208:[scanout] plane-candidate: no overlay plane path yet, using GLES
+224:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+225:[scanout] plane-candidate: no overlay plane path yet, using GLES
+241:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+242:[scanout] plane-candidate: no overlay plane path yet, using GLES
+258:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+259:[scanout] plane-candidate: no overlay plane path yet, using GLES
+275:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+276:[scanout] plane-candidate: no overlay plane path yet, using GLES
+292:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+293:[scanout] plane-candidate: no overlay plane path yet, using GLES
+309:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+310:[scanout] plane-candidate: no overlay plane path yet, using GLES
+326:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+327:[scanout] plane-candidate: no overlay plane path yet, using GLES
+343:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+344:[scanout] plane-candidate: no overlay plane path yet, using GLES
+360:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+361:[scanout] plane-candidate: no overlay plane path yet, using GLES
+377:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+378:[scanout] plane-candidate: no overlay plane path yet, using GLES
+394:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+395:[scanout] plane-candidate: no overlay plane path yet, using GLES
+411:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+412:[scanout] plane-candidate: no overlay plane path yet, using GLES
+428:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+429:[scanout] plane-candidate: no overlay plane path yet, using GLES
+445:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+446:[scanout] plane-candidate: no overlay plane path yet, using GLES
+462:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+463:[scanout] plane-candidate: no overlay plane path yet, using GLES
+479:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+480:[scanout] plane-candidate: no overlay plane path yet, using GLES
+496:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+497:[scanout] plane-candidate: no overlay plane path yet, using GLES
+513:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+514:[scanout] plane-candidate: no overlay plane path yet, using GLES
+530:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+531:[scanout] plane-candidate: no overlay plane path yet, using GLES
+547:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+548:[scanout] plane-candidate: no overlay plane path yet, using GLES
+564:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+565:[scanout] plane-candidate: no overlay plane path yet, using GLES
+581:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+582:[scanout] plane-candidate: no overlay plane path yet, using GLES
+598:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+599:[scanout] plane-candidate: no overlay plane path yet, using GLES
+615:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+616:[scanout] plane-candidate: no overlay plane path yet, using GLES
+632:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+633:[scanout] plane-candidate: no overlay plane path yet, using GLES
+649:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+650:[scanout] plane-candidate: no overlay plane path yet, using GLES
+666:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+667:[scanout] plane-candidate: no overlay plane path yet, using GLES
+683:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+684:[scanout] plane-candidate: no overlay plane path yet, using GLES
+700:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+701:[scanout] plane-candidate: no overlay plane path yet, using GLES
+717:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+718:[scanout] plane-candidate: no overlay plane path yet, using GLES
+734:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+735:[scanout] plane-candidate: no overlay plane path yet, using GLES
+751:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+752:[scanout] plane-candidate: no overlay plane path yet, using GLES
+768:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+769:[scanout] plane-candidate: no overlay plane path yet, using GLES
+785:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+786:[scanout] plane-candidate: no overlay plane path yet, using GLES
+802:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+803:[scanout] plane-candidate: no overlay plane path yet, using GLES
+819:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+820:[scanout] plane-candidate: no overlay plane path yet, using GLES
+836:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+837:[scanout] plane-candidate: no overlay plane path yet, using GLES
+853:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+854:[scanout] plane-candidate: no overlay plane path yet, using GLES
+870:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+871:[scanout] plane-candidate: no overlay plane path yet, using GLES
+887:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+888:[scanout] plane-candidate: no overlay plane path yet, using GLES
+904:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+905:[scanout] plane-candidate: no overlay plane path yet, using GLES
+921:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+922:[scanout] plane-candidate: no overlay plane path yet, using GLES
+938:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+939:[scanout] plane-candidate: no overlay plane path yet, using GLES
+955:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+956:[scanout] plane-candidate: no overlay plane path yet, using GLES
+972:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+973:[scanout] plane-candidate: no overlay plane path yet, using GLES
+989:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+990:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1006:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1007:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1023:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1024:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1040:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1041:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1057:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1058:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1074:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1075:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1091:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1092:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1108:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1109:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1125:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1126:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1142:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1143:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1159:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1160:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1176:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1177:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1193:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1194:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1210:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1211:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1227:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1228:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1244:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1245:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1261:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1262:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1278:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1279:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1295:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1296:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1312:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1313:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1329:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1330:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1346:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1347:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1363:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1364:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1380:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1381:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1397:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1398:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1414:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1415:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1431:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1432:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1448:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1449:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1465:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1466:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1482:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1483:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1499:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1500:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1516:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1517:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1533:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1534:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1550:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1551:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1567:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1568:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1584:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1585:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1601:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1602:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1618:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1619:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1635:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1636:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1652:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1653:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1669:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1670:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1686:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1687:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1703:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1704:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1720:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1721:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1737:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1738:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1754:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1755:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1771:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1772:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1788:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1789:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1805:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1806:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1822:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1823:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1839:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1840:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1856:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1857:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1873:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1874:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1890:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1891:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1907:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1908:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1924:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1925:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1941:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1942:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1958:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1959:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1975:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1976:[scanout] plane-candidate: no overlay plane path yet, using GLES
+1992:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+1993:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2009:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2010:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2026:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2027:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2043:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2044:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2060:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2061:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2077:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2078:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2094:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2095:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2111:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2112:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2128:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2129:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2145:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2146:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2162:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2163:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2179:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2180:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2196:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2197:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2213:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2214:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2230:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2231:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2247:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2248:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2264:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2265:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2281:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2282:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2298:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2299:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2315:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2316:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2332:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2333:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2349:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2350:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2366:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2367:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2383:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2384:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2400:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2401:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2417:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2418:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2434:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2435:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2451:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2452:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2468:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2469:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2485:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2486:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2502:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2503:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2519:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2520:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2536:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2537:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2553:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2554:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2570:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2571:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2587:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2588:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2604:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2605:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2621:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2622:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2638:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2639:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2655:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2656:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2672:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2673:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2689:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2690:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2706:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2707:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2723:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2724:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2740:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2741:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2757:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2758:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2774:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2775:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2791:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2792:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2808:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2809:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2825:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2826:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2842:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2843:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2859:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2860:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2876:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2877:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2893:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2894:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2910:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2911:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2927:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2928:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2944:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2945:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2961:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2962:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2978:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2979:[scanout] plane-candidate: no overlay plane path yet, using GLES
+2995:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+2996:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3012:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3013:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3029:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3030:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3046:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3047:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3063:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3064:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3080:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3081:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3097:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3098:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3114:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3115:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3131:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3132:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3148:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3149:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3165:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3166:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3182:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3183:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3199:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3200:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3216:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3217:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3233:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3234:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3250:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3251:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3267:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3268:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3284:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3285:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3301:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3302:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3318:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3319:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3335:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3336:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3352:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3353:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3369:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3370:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3386:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3387:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3403:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3404:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3420:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3421:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3437:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3438:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3454:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3455:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3471:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3472:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3488:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3489:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3505:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3506:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3522:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3523:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3539:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3540:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3556:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3557:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3573:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3574:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3590:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3591:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3607:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3608:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3624:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3625:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3641:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3642:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3658:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3659:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3675:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3676:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3692:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3693:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3709:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3710:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3726:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3727:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3743:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3744:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3760:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3761:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3777:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3778:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3794:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3795:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3811:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3812:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3828:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3829:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3845:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3846:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3862:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3863:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3879:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3880:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3896:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3897:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3913:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3914:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3930:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3931:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3947:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3948:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3964:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3965:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3981:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3982:[scanout] plane-candidate: no overlay plane path yet, using GLES
+3998:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+3999:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4015:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4016:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4032:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4033:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4049:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4050:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4066:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4067:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4083:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4084:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4100:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4101:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4117:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4118:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4134:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4135:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4151:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4152:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4168:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4169:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4185:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4186:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4202:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4203:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4219:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4220:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4236:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4237:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4253:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4254:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4270:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4271:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4287:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4288:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4304:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4305:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4321:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4322:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4338:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4339:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4355:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4356:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4372:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4373:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4389:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4390:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4406:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4407:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4423:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4424:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4440:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4441:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4457:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4458:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4474:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4475:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4491:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4492:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4508:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4509:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4525:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4526:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4542:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4543:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4559:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4560:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4576:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4577:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4593:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4594:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4610:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4611:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4627:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4628:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4644:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4645:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4661:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4662:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4678:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4679:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4695:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4696:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4712:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4713:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4729:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4730:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4746:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4747:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4763:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4764:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4780:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4781:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4797:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4798:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4814:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4815:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4831:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4832:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4848:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4849:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4865:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4866:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4882:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4883:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4899:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4900:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4916:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4917:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4933:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4934:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4950:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4951:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4967:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4968:[scanout] plane-candidate: no overlay plane path yet, using GLES
+4984:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+4985:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5001:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5002:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5018:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5019:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5035:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5036:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5052:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5053:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5069:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5070:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5086:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5087:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5103:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5104:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5120:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5121:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5137:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5138:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5154:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5155:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5171:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5172:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5188:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5189:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5205:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5206:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5222:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5223:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5239:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5240:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5256:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5257:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5273:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5274:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5290:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5291:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5307:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5308:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5324:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5325:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5341:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5342:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5358:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5359:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5375:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5376:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5392:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5393:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5409:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5410:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5426:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5427:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5443:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5444:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5460:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5461:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5477:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5478:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5494:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5495:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5511:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5512:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5528:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5529:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5545:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5546:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5562:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5563:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5579:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5580:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5596:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5597:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5613:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5614:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5630:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5631:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5647:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5648:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5664:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5665:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5681:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5682:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5698:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5699:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5715:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5716:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5732:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5733:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5749:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5750:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5766:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5767:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5783:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5784:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5800:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5801:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5817:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5818:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5834:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5835:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5851:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5852:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5868:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5869:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5885:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5886:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5902:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5903:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5919:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5920:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5936:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5937:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5953:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5954:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5970:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5971:[scanout] plane-candidate: no overlay plane path yet, using GLES
+5987:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+5988:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6004:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6005:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6021:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6022:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6038:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6039:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6055:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6056:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6072:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6073:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6089:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6090:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6106:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6107:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6123:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6124:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6140:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6141:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6157:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6158:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6174:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6175:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6191:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6192:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6208:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6209:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6225:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6226:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6242:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6243:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6259:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6260:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6276:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6277:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6293:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6294:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6310:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6311:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6327:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6328:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6344:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6345:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6361:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6362:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6378:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6379:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6395:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6396:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6412:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6413:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6429:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6430:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6446:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6447:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6463:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6464:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6480:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6481:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6497:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6498:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6514:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6515:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6531:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6532:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6548:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6549:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6565:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6566:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6582:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6583:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6599:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6600:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6616:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6617:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6633:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6634:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6650:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6651:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6667:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6668:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6684:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6685:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6701:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6702:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6718:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6719:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6735:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6736:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6752:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6753:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6769:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6770:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6786:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6787:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6803:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6804:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6820:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6821:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6837:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6838:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6854:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6855:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6871:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6872:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6888:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6889:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6905:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6906:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6922:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6923:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6939:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6940:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6956:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6957:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6973:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6974:[scanout] plane-candidate: no overlay plane path yet, using GLES
+6990:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+6991:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7007:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7008:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7024:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7025:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7041:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7042:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7058:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7059:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7075:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7076:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7092:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7093:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7109:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7110:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7126:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7127:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7143:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7144:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7160:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7161:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7177:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7178:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7194:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7195:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7211:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7212:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7228:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7229:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7245:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7246:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7262:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7263:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7279:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7280:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7296:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7297:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7313:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7314:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7330:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7331:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7347:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7348:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7364:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7365:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7381:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7382:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7398:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7399:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7415:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7416:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7432:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7433:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7449:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7450:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7466:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7467:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7483:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7484:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7500:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7501:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7517:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7518:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7534:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7535:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7551:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7552:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7568:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7569:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7586:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7587:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7606:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7607:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7623:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7624:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7640:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7641:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7657:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7658:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7674:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7675:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7691:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7692:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7708:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7709:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7725:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7726:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7742:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7743:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7759:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7760:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7776:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7777:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7793:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7794:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7810:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7811:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7827:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7828:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7844:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7845:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7861:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7862:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7878:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7879:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7895:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7896:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7912:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7913:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7929:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7930:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7946:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7947:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7963:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7964:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7980:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7981:[scanout] plane-candidate: no overlay plane path yet, using GLES
+7997:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+7998:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8014:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8015:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8031:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8032:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8048:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8049:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8065:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8066:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8082:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8083:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8099:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8100:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8116:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8117:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8133:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8134:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8150:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8151:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8167:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8168:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8184:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8185:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8201:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8202:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8218:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8219:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8235:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8236:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8252:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8253:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8269:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8270:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8286:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8287:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8303:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8304:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8320:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8321:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8337:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8338:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8354:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8355:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8371:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8372:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8388:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8389:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8405:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8406:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8422:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8423:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8439:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8440:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8456:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8457:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8473:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8474:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8490:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8491:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8507:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8508:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8524:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8525:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8541:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8542:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8558:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8559:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8575:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8576:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8592:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8593:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8609:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8610:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8626:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8627:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8643:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8644:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8660:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8661:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8677:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8678:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8694:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8695:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8711:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8712:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8728:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8729:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8745:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8746:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8762:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8763:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8779:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8780:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8796:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8797:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8813:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8814:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8830:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8831:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8847:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8848:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8864:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8865:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8881:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8882:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8898:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8899:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8915:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8916:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8932:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8933:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8949:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8950:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8966:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8967:[scanout] plane-candidate: no overlay plane path yet, using GLES
+8983:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+8984:[scanout] plane-candidate: no overlay plane path yet, using GLES
+9000:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+9001:[scanout] plane-candidate: no overlay plane path yet, using GLES
+9017:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+9018:[scanout] plane-candidate: no overlay plane path yet, using GLES
+9034:[direct-scanout] plane-candidate: buffer=256x256 mode=1920x1080 format=XR24 modifier=0
+9035:[scanout] plane-candidate: no overlay plane path yet, using GLES
+[4/4] file locations:
+RUNLOG=/home/flux/repos/moksha-warp/logs/proof/vt-zero-copy-20260314-065555.log
+CLIENTLOG=/home/flux/repos/moksha-warp/logs/proof/vt-zero-copy-client-20260314-065555.log
+SUMMARY=/home/flux/repos/moksha-warp/logs/proof/vt-zero-copy-summary-20260314-065555.txt
