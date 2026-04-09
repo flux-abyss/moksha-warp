@@ -1,3 +1,0 @@
-=== Moksha-Warp VT zero-copy test ===
-stamp: 20260314-144503
-[1/4] starting compositor...

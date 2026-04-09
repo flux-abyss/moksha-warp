@@ -1,9 +1,0 @@
-=== Moksha-Warp VT zero-copy test ===
-stamp: 20260314-060446
-[1/4] starting compositor...
-[2/4] starting dmabuf client...
-[3/4] summary:
-[4/4] file locations:
-RUNLOG=/home/flux/repos/moksha-warp/logs/proof/vt-zero-copy-20260314-060446.log
-CLIENTLOG=/home/flux/repos/moksha-warp/logs/proof/vt-zero-copy-client-20260314-060446.log
-SUMMARY=/home/flux/repos/moksha-warp/logs/proof/vt-zero-copy-summary-20260314-060446.txt

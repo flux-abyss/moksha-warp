@@ -1,3 +1,0 @@
-Warning: zwp_linux_explicit_synchronization_v1 not supported,
-         will not use explicit synchronization
-simple-dmabuf-egl exiting
